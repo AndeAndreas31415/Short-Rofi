@@ -1,6 +1,6 @@
 # Short-Rofi
 
-[![MIT License][MIT-badge]][MIT-link]
+<!-- [![MIT License][MIT-badge]][MIT-link] -->
 
 This Projeck is based off "https://github.com/davatorium/rofi"
 
