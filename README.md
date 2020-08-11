@@ -1,6 +1,7 @@
 # Short-Rofi
 
-<!-- [![MIT License][MIT-badge]][MIT-link] -->
+[![][License]][L-link]
+[![][Version]]
 
 This Projeck is based off "https://github.com/davatorium/rofi"
 
@@ -26,3 +27,9 @@ add in the line "modi"
 ToDo:
 -automatic key press
 -more cheat sheet implemandit
+
+<!-- Variables for this Readme file-->
+
+[License]: https://img.shields.io/badge/license-MIT-blue.svg
+[Version]: https://img.shields.io/badge/Version-Beta-red
+[MIT-link]: ./LICENSE
