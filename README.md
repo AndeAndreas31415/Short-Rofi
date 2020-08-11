@@ -32,4 +32,4 @@ ToDo:
 
 [License]: https://img.shields.io/badge/license-MIT-blue.svg
 [Version]: https://img.shields.io/badge/Version-Beta-red
-[MIT-link]: ./LICENSE
+[L-link]: ./LICENSE
