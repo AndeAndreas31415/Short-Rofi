@@ -6,6 +6,7 @@
 readonly Run_shortcut="yes"
 
 readonly window=$(xdotool getwindowfocus getwindowname)
+readonly wn=$(xdotool getactivewindow)
 
 readonly Keys_Dir="$HOME/.config/rofi/keys"
 readonly Keys=$(ls $Keys_Dir|cut -d "." -f 1)
@@ -75,7 +76,9 @@ run_short_func (){
 
 #		a debug message
 #		echo "Debug copy"
-
+#		xdotool windowactivate $wn
+#		sleep 1
+#		xdotool key $2
 		echo -n $2|xsel -bi
 	fi
 	exit 0

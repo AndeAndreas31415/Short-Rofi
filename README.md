@@ -31,5 +31,5 @@ ToDo:
 <!-- Variables for this Readme file-->
 
 [License]: https://img.shields.io/badge/license-MIT-blue.svg
-[Version]: https://img.shields.io/badge/Version-Beta-red
+[Version]: https://img.shields.io/badge/Version-Alpha-red
 [L-link]: ./LICENSE
