@@ -25,15 +25,19 @@ This script put out shortcuts about the active programm.
 Edit the *config from rofi*:
 
 ​	`nano $HOME/.config/rofi/config.rasi`
+</br>
 or
+</br>
 ​	`vim $HOME/.config/rofi/config.rasi`
+</br>
 or 
+</br>
 ​	`$"Your favorit text editor" $HOME/.config/rofi/config.rasi`
 
-add in the line "modi":
+add in the line "modi":</br>
   <u>shortcuts:$HOME/.config/rofi/rofi-shortcuts.sh</u> 
 
-Example:
+Example:</br>
    *modi: "drun,window,shortcuts:/home/anno/coding/bash-script/short_rofi/rofi-shortcut.sh,";*
 
 
