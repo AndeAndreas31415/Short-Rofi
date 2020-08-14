@@ -13,6 +13,7 @@ This script put out shortcuts about the active programm.
 
 ## How to add to rofi:
 `git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOME/.config/rofi/`
+</br>
 `chmod +x $HOME/.config/rofi/rofi-shortcuts.sh`	
 
 ### Run this script from Cli (*Terminal*)
