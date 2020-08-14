@@ -1,0 +1,53 @@
+-> ctrl+alt+PageUp Switch to the next tab to the left
+-> ctrl+alt+PageDown Switch to the next tab to the right
+-> ctrl+w Close tab
+-> ctrl+shift+l Save all tabs
+-> ctrl+shift+w Close all tabs
+-> ctrl+shift+t Reopen the most recently closed tab
+-> alt+$num Jump to $num th tab
+-> ctrl+alt+n New tab group
+-> shift+ctrl+alt+PageUp Previous tab group
+-> shift+ctrl+alt+PageDown Next tab group
+-> ctrl+n Create a new document in a new window
+-> ctrl+t Create a new document in a new tab
+-> ctrl+o Open a document
+-> alt+o Open the Quick Open window
+-> ctrl+s Save the current document
+-> ctrl+shift+s Save the current document with a new filename
+-> ctrl+p Print the current document
+-> ctrl+shift+p Print preview
+-> ctrl+w Close the current document
+-> ctrl+q Quit gedit
+-> Home Move to the beginning of the current line
+-> End Move to the end of the current line
+-> ctrl+Home Move to the beginning of the document
+-> ctrl+End Move to the end of the document
+-> alt+RightArrow Move the selected word right one word
+-> alt+LeftArrow Move the selected word left one word
+-> ctrl+z Undo the last action
+-> ctrl+shift+Z Redo the last undone action
+-> ctrl+x Cut the selected text or region and place it on the clipboard
+-> ctrl+c Copy the selected text or region onto the clipboard
+-> ctrl+v Paste the contents of the clipboard
+-> ctrl+a Select all text in the file
+-> ctrl+d Delete the current line
+-> alt+UpArrow Move the selected line up one line
+-> alt+DownArrow Move the selected line down one line
+-> Tab Add a tab stop
+-> shift+Tab Remove a tab stop
+-> ctrl+U Convert the selected text to upper case
+-> ctrl+L Convert the selected text to lower case
+-> ctrl+~ Toggle case of the selected text
+-> F9 Show / hide the side panel
+-> F10 Open the file menu
+-> ctrl+F Find a string
+-> ctrl+G Find the next instance of the string
+-> ctrl+shift+G Find the previous instance of the string
+-> ctrl+H Search and Replace
+-> ctrl+shift+K Clear highlight
+-> ctrl+I Goto line
+-> shift+F7 Check spelling
+-> alt+F12 Remove trailing spaces (with plugin)
+-> F8 Run "make" in the current directory (with plugin)
+-> ctrl+shift+D Directory listing (with plugin)
+-> F1 Open the gedit user guide
