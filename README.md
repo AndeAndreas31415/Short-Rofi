@@ -1,35 +1,47 @@
 # Short-Rofi
 
 [![][License]][L-link]
-[![][Version]]
+![][Version]
 
 This Projeck is based off "https://github.com/davatorium/rofi"
 
-This is in beta
+This script put out shortcuts about the active programm. 
 
-This script put out shortcuts about the active programm.
-
-
-git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOME/.config/rofi/
+## Screenshots
+![Programm list](screenshots/programm_list.png) ![short key list](screenshots/key_list.png)
 
 
-nano $HOME/.config/rofi/config.rasi
+## How to add to rofi:
+`git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOME/.config/rofi/`
+`chmod +x $HOME/.config/rofi/rofi-shortcuts.sh`	
 
+### Run this script from Cli (*Terminal*)
+
+`rofi -modi shortcut:$HOME/.config/rofi/rofi-shortcut.sh -show shortcut`
+
+### Add the script to rofi modi 
+
+Edit the *config from rofi*:
+
+​	`nano $HOME/.config/rofi/config.rasi`
 or
+​	`vim $HOME/.config/rofi/config.rasi`
+or 
+​	`$"Your favorit text editor" $HOME/.config/rofi/config.rasi`
 
-vim $HOME/.config/rofi/config.rasi
+add in the line "modi":
+  <u>shortcuts:$HOME/.config/rofi/rofi-shortcuts.sh</u> 
 
-chmod +x $HOME/.config/rofi/rofi-shortcuts.sh
+Example:
+   *modi: "drun,window,shortcuts:/home/anno/coding/bash-script/short_rofi/rofi-shortcut.sh,";*
 
-add in the line "modi"
-* shortcuts:$HOME/.config/rofi/rofi-shortcuts.sh *
+
 
 ToDo:
--automatic key press
--more cheat sheet implemandit
+- automatic key press
+- add more cheat sheet
 
 <!-- Variables for this Readme file-->
-
-[License]: https://img.shields.io/badge/license-MIT-blue.svg
+[License]: https://img.shields.io/badge/License-MIT-blue
 [Version]: https://img.shields.io/badge/Version-Alpha-red
 [L-link]: ./LICENSE
