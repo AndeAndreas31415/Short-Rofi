@@ -3,7 +3,8 @@
 # need to install: xdotool , rofi , xsel
 
 # automatic execution of the shortcut (yes/no)
-readonly Run_shortcut="yes"
+# this fuction is not available
+#readonly Run_shortcut="yes"
 
 readonly window=$(xdotool getwindowfocus getwindowname)
 readonly wn=$(xdotool getactivewindow)
@@ -73,12 +74,12 @@ second_frame (){
 run_short_func (){
 	if [[ "$Run_shortcut" == *"yes"* ]]
 	then
-
+#		xdotool key 0xff1b
 #		a debug message
 #		echo "Debug copy"
 #		xdotool windowactivate $wn
-#		sleep 1
-#		xdotool key $2
+#		sleep 5
+		xdotool key --window "$wn" $2
 		echo -n $2|xsel -bi
 	fi
 	exit 0
