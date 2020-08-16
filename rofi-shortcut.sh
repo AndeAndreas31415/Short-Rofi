@@ -11,7 +11,7 @@ readonly wn=$(xdotool getactivewindow)
 
 readonly Keys_Dir="$HOME/.config/rofi/keys"
 readonly Keys=$(ls $Keys_Dir|cut -d "." -f 1)
-readonly Num_Keys=$(ls $Keys_Dir|wc -l)
+#readonly Num_Keys=$(ls $Keys_Dir|wc -l)
 
 # if you have tmux
 if [ -f /usr/bin/tmux ]
@@ -32,11 +32,11 @@ main(){
 	Output_Main+="Shortcuts for Xfce4 \"Display Manager\"\n"
 
 	case $window in
-		*"Firefox"*)	Output_Main+="Shortcuts for Firefox \n"  && Next="firefox";;
-		*"Terminal"*)	Output_Main+="Shortcuts for Terminal \n" && Next="terminal";;
-		*"Ardour"*)	Output_Main+="Shortcuts for Ardour \n";;
-		*"Evolution"*)	Output_Main+="Shortcuts for Evolution \n";;
+		*"Firefox"*)	Output_Main+="Shortcuts for Firefox \n" ;; #&& Next="firefox";;
+#		*"Ardour"*)	Output_Main+="Shortcuts for Ardour \n";;
+#		*"Evolution"*)	Output_Main+="Shortcuts for Evolution \n";;
 		*"gedit"*)	Output_Main+="Shortcuts for Gedit \n";;
+		*"Terminal"*)	Next="terminal";;
 		*)		echo "" ;;
 	esac
 	
@@ -49,12 +49,11 @@ main(){
 		esac
 	fi
 
-	if [[ "$Next" == *"firefox"* ]]
-	then
-		Output_Main+="  └─ Shortcuts for "
-		Output_Main+=$(echo $window|grep -o "YouTube")
-	fi
-
+#	if [[ "$Next" == *"firefox"* ]]
+#	then
+#		Output_Main+="  └─ Shortcuts for "
+#		Output_Main+=$(echo $window|grep -o "YouTube")
+#	fi
 	echo -e "${Output_Main}"
 }
 
@@ -74,13 +73,14 @@ second_frame (){
 run_short_func (){
 	if [[ "$Run_shortcut" == *"yes"* ]]
 	then
+		echo -n "Nothing"
 #		xdotool key 0xff1b
 #		a debug message
 #		echo "Debug copy"
-#		xdotool windowactivate $wn
-#		sleep 5
-		xdotool key --window "$wn" $2
-		echo -n $2|xsel -bi
+#		xdotool key --clearmodifiers --delay 1000 --window $wn $2
+#		notify-send $wn
+#		notify-send $(pwd)
+#		echo -e "sleep 5 \nxdotool windowactivate "$wn" \nxdotool key "$2"\nnotify-send \"Nice it works\"">run-key.sh
 	fi
 	exit 0
 }

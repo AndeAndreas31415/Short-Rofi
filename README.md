@@ -43,10 +43,13 @@ Example:</br>
 
 
 ToDo:
-- automatic key press
+- automatic key press (have you a idea then try them out and then send me the solution)
 - add more cheat sheet
 
+Ideas and solutions send it to me  [E-mail:(andreas_coding@gmx.de)](andreas_coding@gmx.de)
+
 <!-- Variables for this Readme file-->
+
 [License]: https://img.shields.io/badge/License-MIT-blue
 [Version]: https://img.shields.io/badge/Version-Alpha-red
 [L-link]: ./LICENSE

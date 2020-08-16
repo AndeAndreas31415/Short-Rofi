@@ -1,0 +1,219 @@
+Navigation	
+Command 						Shortcut
+Back 							Alt + ←
+							Ctrl + [
+Forward 						Alt + →
+							Ctrl + ]
+Home 							Alt + Home
+Open File 						Ctrl + O
+Reload 							F5
+							Ctrl + R
+Reload (override cache) 				Ctrl + F5
+							Ctrl + Shift + R
+Stop 							Esc
+		
+Current Page		
+Command 						Shortcut
+Focus Next Link or Input Field 				Tab
+Focus Previous Link or Input Field 			Shift + Tab
+Go Down a Screen	 				Page Down
+							Space bar
+Go Up a Screen 						Page Up
+							Shift + Space bar
+Go to Bottom of Page 					End
+							Ctrl + ↓
+Go to Top of Page 					Home
+							Ctrl + ↑
+Move to Next Frame 					F6
+Move to Previous Frame 					Shift + F6
+Print 							Ctrl + P
+Save Focused Link 					Alt + Enter
+Save Page As 						Ctrl + S
+Zoom In 						Ctrl + +
+Zoom Out 						Ctrl + -
+Zoom Reset 						Ctrl + 0
+		
+Editing		
+Command 						Shortcut
+Copy 							Ctrl + C
+Cut 							Ctrl + X
+Delete 							Del
+Delete Word to the Left 				Ctrl + Backspace
+Delete Word to the Right 				Ctrl + Del
+Go one Word to the Left 				Ctrl + ←
+Go one Word to the Right 				Ctrl + →
+Go to Beginning of Line 				Home
+Go to End of Line 					End
+Go to Beginning of Text 				Ctrl + Home
+Go to End of Text 					Ctrl + End
+Paste 							Ctrl + V
+Paste (as plain text) 					Ctrl + Shift + V
+Redo 							Ctrl + Y
+							Ctrl + Shift + Z
+Select All 						Ctrl + A
+Undo 							Ctrl + Z
+
+Search
+Command							Shortcut 	
+Find in This Page		 			Ctrl + F 	
+Find Again 						F3
+							Ctrl + G 	
+Find Previous 						Shift + F3
+							Ctrl + Shift + G 	
+Quick Find within link-text only 			' 	
+Quick Find 						/ 	
+Close the Find or Quick Find bar		 	Esc	
+Switch Search Engine 					Alt + ↓
+							Alt + ↑ 	
+Focus Address bar for Web Search (writes "? " there) 	Ctrl + K
+							Ctrl + J
+Focus Search bar 					Ctrl + K
+							Ctrl + J
+Change the Default Search Engine 			Ctrl + ↓
+							Ctrl + ↑ 	
+View menu to switch, add or manage search engines 	Alt + ↓
+							Alt + ↑
+							F4
+							
+Windows & Tabs
+Command 	Shortcut
+Close Tab 	Ctrl + W
+Ctrl + F4
+- except for Pinned Tabs
+Close Window 	Ctrl + Shift + W
+Alt + F4
+Cycle through Tabs in Recently Used Order 	Ctrl + Tab
+-if enabled in Preferences
+Quit 	Ctrl + Q
+Go one Tab to the Left 	Ctrl + Page Up
+Ctrl + Shift + Tab*
+* see below
+Go one Tab to the Right 	Ctrl + Page Down
+Ctrl + Tab*
+* if the setting Ctrl+Tab cycles through tabs in recently used order is disabled in Preferences
+Go to Tab 1 to 8 	Alt + 1 to 8
+Go to Last Tab 	Alt + 9
+Move Tab Left 	Ctrl + Shift + Page Up
+Move Tab Right 	Ctrl + Shift + Page Down
+Move Tab to start 	Ctrl + Shift + Home
+- requires the currently selected tab to be "in focus" for instance, by hitting Alt + D to focus the address bar, and then Shift + Tab until you reach the browser tab bar.
+Move Tab to end 	Ctrl + Shift + End
+- requires the currently selected tab to be "in focus" for instance, by hitting Alt + D to focus the address bar, and then Shift + Tab until you reach the browser tab bar.
+Mute/Unmute Audio 	Ctrl + M
+New Tab 	Ctrl + T
+New Window 	Ctrl + N
+New Private Window 	Ctrl + Shift + P
+Open Address or Search in New Background Tab 	Alt + Shift + Enter
+- from address bar
+Open Address or Search in New Foreground Tab 	Alt + Enter
+- from address bar or Search bar
+Open Address or Search in New Window 	Shift + Enter
+- from address bar or the Search field on the New Tab page
+Open Search in New Background Tab 	Ctrl + Enter
+- from the Search field on the New Tab page.
+(see note, below)
+Open Search in New Foreground Tab 	Ctrl + Shift + Enter
+- from the Search field on the New Tab page.
+Note: The Foreground and Background Tab shortcuts are switched if the setting When you open a link in a new tab, switch to it immediately is enabled in Preferences
+Open Focused Bookmark or Link in Current Tab 	Enter
+Open Focused Bookmark in New Foreground Tab 	Ctrl + Enter
+Open Focused Bookmark in New Background Tab 	Ctrl + Shift + Enter
+Open Focused Link in New Background Tab 	Ctrl + Enter
+(see note, below)
+Open Focused Link in New Foreground Tab 	Ctrl + Shift + Enter
+Note: The Foreground and Background Tab shortcuts are switched if the setting When you open a link in a new tab, switch to it immediately is enabled in Preferences
+Open Focused Bookmark or Link in New Window 	Shift + Enter
+Undo Close Tab 	Ctrl + Shift + T
+Undo Close Window 	Ctrl + Shift + N
+Moves the URL left or right (if cursor is in the address bar) 	Ctrl + Shift + X
+History
+Command 	Shortcut
+History sidebar 	Ctrl + H
+Library window (History) 	Ctrl + Shift + H
+Clear Recent History 	Ctrl + Shift + Del
+Bookmarks
+Command 	Shortcut
+	
+Bookmark This Page 	Ctrl + D
+Bookmarks sidebar 	Ctrl + B
+Library window (Bookmarks) 	Ctrl + Shift + O
+Show List of All Bookmarks. 	Space
+- in Empty Search Field in Bookmarks Library Window or Sidebar.
+Focus Next Bookmark/Folder whose name (or sorted property) starts with a given character or character sequence 	Type the character or quickly type the character sequence
+- in Bookmarks Library, Bookmarks Toolbar, Bookmarks Menu, Bookmarks Sidebar
+Tools
+Command 	Shortcut
+Downloads 	Ctrl + Shift + Y
+Add-ons 	Ctrl + Shift + A
+Toggle Developer Tools 	F12
+Ctrl + Shift + I
+Web Console 	Ctrl + Shift + K
+Inspector 	Ctrl + Shift + C
+Debugger 	Ctrl + Shift + S
+Style Editor 	Shift + F7
+Profiler 	Shift + F5
+Network 	Ctrl + Shift + E
+Developer Toolbar 	Shift + F2
+Responsive Design View 	Ctrl + Shift + M
+Scratchpad 	Shift + F4
+Page Source 	Ctrl + U
+Browser Console 	Ctrl + Shift + J
+Page Info 	Ctrl + I
+PDF Viewer
+Command 	Shortcut
+Next page 	N or J or →
+Previous page 	P or K or ←
+Zoom in 	Ctrl + +
+Zoom out 	Ctrl + -
+Automatic Zoom 	Ctrl + 0
+Rotate the document clockwise 	R
+Rotate counterclockwise 	Shift + R
+Switch to Presentation Mode 	Ctrl + Alt + P
+Choose Text Selection Tool 	S
+Choose Hand Tool 	H
+Focus the Page Number input box 	Ctrl + Alt + G
+
+Miscellaneous
+Command 	Shortcut
+Complete .com Address 	Ctrl + Enter
+Delete Selected Autocomplete Entry 	Shift + Del
+Toggle Full Screen 	F11
+Toggle Menu Bar activation (showing it temporarily when hidden) 	Alt or F10
+Toggle Reader Mode 	Ctrl + Alt + R
+Caret Browsing 	F7
+Focus Address Bar 	F6
+Alt + D
+Ctrl + L
+Focus Search Field in Library 	F6
+Ctrl + F
+Stop Autoscroll Mode 	Esc
+Cancel Drag-and-Drop Operation 	Esc
+Clear Search Field in Library or Sidebar 	Esc
+Close a Menu 	Esc
+Alt
+F10
+Toggle Context Menu 	Shift + F10
+Media shortcuts
+See also HTML5 audio and video in Firefox.
+Command 	Shortcut
+Toggle Play / Pause 	Space bar
+Decrease volume 	↓
+Increase volume 	↑
+Mute audio 	Ctrl + ↓
+Unmute audio 	Ctrl + ↑
+Seek back 15 seconds 	←
+Seek back 10 % 	Ctrl + ←
+Seek forward 15 seconds 	→
+Seek forward 10 % 	Ctrl + →
+Seek to the beginning 	Home
+Seek to the end 	End
+Selection of Multiple Tabs
+These shortcuts require the tab bar to be "in focus." Currently, the only way to do this is to focus an adjacent object and "tab into" the tab bar, for instance, by hitting Ctrl + L to focus the address bar, and then Shift + Tab repeatedly until the current tab gets a dotted rectangle.
+Command 	Shortcut
+Select left, right, first or last tab. Deselect all other tabs. 	Arrow Keys
+Home
+End
+Move the dotted rectangle to left, right, first or last tab. 	Ctrl + Arrow Keys
+Ctrl + Home
+Ctrl + End
+Select or deselect the tab with the dotted rectangle. The other tabs stay selected or deselected. 	Ctrl + Space
