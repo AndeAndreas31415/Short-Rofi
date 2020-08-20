@@ -8,7 +8,12 @@ This Projeck is based off "https://github.com/davatorium/rofi"
 This script put out shortcuts about the active programm. 
 
 ## Screenshots
-![Programm list](screenshots/programm_list.png) ![short key list](screenshots/key_list.png)
+<!--Main frame-->
+<a href="https://ibb.co/MRPPsLM"><img src="https://i.ibb.co/HrGGVQn/programm-list.png" alt="programm-list" border="0"></a>
+
+<!--2.frame-->
+<a href="https://ibb.co/wh6RMrK"><img src="https://i.ibb.co/xq5DJ8M/key-list.png" alt="key-list" border="0"></a>
+
 
 
 ## How to add to rofi:
