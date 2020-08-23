@@ -66,7 +66,7 @@ second_frame (){
 #	echo "Debug 2"
 	
 	Program=$(echo $3)
-	notify-send $Program
+#	notify-send $Program
 	Path_Pro=$(echo $Keys_Dir/$Program".txt")
 #	echo $Path_Pro
 	cat $Path_Pro
