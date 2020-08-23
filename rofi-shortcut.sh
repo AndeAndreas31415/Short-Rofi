@@ -33,7 +33,7 @@ main(){
 
 	case $window in
 		*"Firefox"*)	Output_Main+="Shortcuts for Firefox \n" ;; #&& Next="firefox";;
-#		*"Ardour"*)	Output_Main+="Shortcuts for Ardour \n";;
+		*"Arduino"*)	Output_Main+="Shortcuts for Arduino \n";;
 #		*"Evolution"*)	Output_Main+="Shortcuts for Evolution \n";;
 		*"gedit"*)	Output_Main+="Shortcuts for Gedit \n";;
 		*"Terminal"*)	Next="terminal";;
@@ -54,6 +54,8 @@ main(){
 #		Output_Main+="  └─ Shortcuts for "
 #		Output_Main+=$(echo $window|grep -o "YouTube")
 #	fi
+
+#	echo -e $window
 	echo -e "${Output_Main}"
 }
 
@@ -64,7 +66,7 @@ second_frame (){
 #	echo "Debug 2"
 	
 	Program=$(echo $3)
-#	echo $Program
+	notify-send $Program
 	Path_Pro=$(echo $Keys_Dir/$Program".txt")
 #	echo $Path_Pro
 	cat $Path_Pro

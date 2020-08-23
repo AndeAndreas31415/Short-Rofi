@@ -76,102 +76,105 @@ View menu to switch, add or manage search engines 	Alt + ↓
 							F4
 							
 Windows & Tabs
-Command 	Shortcut
-Close Tab 	Ctrl + W
-Ctrl + F4
+Command 							Shortcut
+Close Tab					 		Ctrl + W
+								Ctrl + F4
 - except for Pinned Tabs
-Close Window 	Ctrl + Shift + W
-Alt + F4
-Cycle through Tabs in Recently Used Order 	Ctrl + Tab
+Close Window 							Ctrl + Shift + W
+								Alt + F4
+Cycle through Tabs in Recently Used Order 			Ctrl + Tab
 -if enabled in Preferences
-Quit 	Ctrl + Q
-Go one Tab to the Left 	Ctrl + Page Up
-Ctrl + Shift + Tab*
+Quit 								Ctrl + Q
+Go one Tab to the Left 						Ctrl + Page Up
+								Ctrl + Shift + Tab*
 * see below
-Go one Tab to the Right 	Ctrl + Page Down
-Ctrl + Tab*
+Go one Tab to the Right 					Ctrl + Page Down
+								Ctrl + Tab*
 * if the setting Ctrl+Tab cycles through tabs in recently used order is disabled in Preferences
-Go to Tab 1 to 8 	Alt + 1 to 8
-Go to Last Tab 	Alt + 9
-Move Tab Left 	Ctrl + Shift + Page Up
-Move Tab Right 	Ctrl + Shift + Page Down
-Move Tab to start 	Ctrl + Shift + Home
+Go to Tab 1 to 8 						Alt + 1 to 8
+Go to Last Tab 							Alt + 9
+Move Tab Left 							Ctrl + Shift + Page Up
+Move Tab Right 							Ctrl + Shift + Page Down
+Move Tab to start 						Ctrl + Shift + Home
 - requires the currently selected tab to be "in focus" for instance, by hitting Alt + D to focus the address bar, and then Shift + Tab until you reach the browser tab bar.
-Move Tab to end 	Ctrl + Shift + End
+Move Tab to end 						Ctrl + Shift + End
 - requires the currently selected tab to be "in focus" for instance, by hitting Alt + D to focus the address bar, and then Shift + Tab until you reach the browser tab bar.
-Mute/Unmute Audio 	Ctrl + M
-New Tab 	Ctrl + T
-New Window 	Ctrl + N
-New Private Window 	Ctrl + Shift + P
-Open Address or Search in New Background Tab 	Alt + Shift + Enter
+Mute/Unmute Audio 						Ctrl + M
+New Tab 							Ctrl + T
+New Window 							Ctrl + N
+New Private Window 						Ctrl + Shift + P
+Open Address or Search in New Background Tab 			Alt + Shift + Enter
 - from address bar
-Open Address or Search in New Foreground Tab 	Alt + Enter
+Open Address or Search in New Foreground Tab 			Alt + Enter
 - from address bar or Search bar
-Open Address or Search in New Window 	Shift + Enter
+Open Address or Search in New Window 				Shift + Enter
 - from address bar or the Search field on the New Tab page
-Open Search in New Background Tab 	Ctrl + Enter
+Open Search in New Background Tab 				Ctrl + Enter
 - from the Search field on the New Tab page.
 (see note, below)
-Open Search in New Foreground Tab 	Ctrl + Shift + Enter
+Open Search in New Foreground Tab 				Ctrl + Shift + Enter
 - from the Search field on the New Tab page.
 Note: The Foreground and Background Tab shortcuts are switched if the setting When you open a link in a new tab, switch to it immediately is enabled in Preferences
-Open Focused Bookmark or Link in Current Tab 	Enter
-Open Focused Bookmark in New Foreground Tab 	Ctrl + Enter
-Open Focused Bookmark in New Background Tab 	Ctrl + Shift + Enter
-Open Focused Link in New Background Tab 	Ctrl + Enter
+Open Focused Bookmark or Link in Current Tab 			Enter
+Open Focused Bookmark in New Foreground Tab 			Ctrl + Enter
+Open Focused Bookmark in New Background Tab 			Ctrl + Shift + Enter
+Open Focused Link in New Background Tab 			Ctrl + Enter
 (see note, below)
-Open Focused Link in New Foreground Tab 	Ctrl + Shift + Enter
+Open Focused Link in New Foreground Tab 			Ctrl + Shift + Enter
 Note: The Foreground and Background Tab shortcuts are switched if the setting When you open a link in a new tab, switch to it immediately is enabled in Preferences
-Open Focused Bookmark or Link in New Window 	Shift + Enter
-Undo Close Tab 	Ctrl + Shift + T
-Undo Close Window 	Ctrl + Shift + N
+Open Focused Bookmark or Link in New Window 			Shift + Enter
+Undo Close Tab 							Ctrl + Shift + T
+Undo Close Window 						Ctrl + Shift + N
 Moves the URL left or right (if cursor is in the address bar) 	Ctrl + Shift + X
+
 History
-Command 	Shortcut
-History sidebar 	Ctrl + H
-Library window (History) 	Ctrl + Shift + H
-Clear Recent History 	Ctrl + Shift + Del
+Command 							Shortcut
+History sidebar 						Ctrl + H
+Library window (History) 					Ctrl + Shift + H
+Clear Recent History 						Ctrl + Shift + Del
+
 Bookmarks
-Command 	Shortcut
-	
-Bookmark This Page 	Ctrl + D
-Bookmarks sidebar 	Ctrl + B
-Library window (Bookmarks) 	Ctrl + Shift + O
-Show List of All Bookmarks. 	Space
+Command 							Shortcut
+Bookmark This Page 						Ctrl + D
+Bookmarks sidebar 						Ctrl + B
+Library window (Bookmarks) 					Ctrl + Shift + O
+Show List of All Bookmarks. 					Space
 - in Empty Search Field in Bookmarks Library Window or Sidebar.
 Focus Next Bookmark/Folder whose name (or sorted property) starts with a given character or character sequence 	Type the character or quickly type the character sequence
 - in Bookmarks Library, Bookmarks Toolbar, Bookmarks Menu, Bookmarks Sidebar
+
 Tools
-Command 	Shortcut
-Downloads 	Ctrl + Shift + Y
-Add-ons 	Ctrl + Shift + A
-Toggle Developer Tools 	F12
-Ctrl + Shift + I
-Web Console 	Ctrl + Shift + K
-Inspector 	Ctrl + Shift + C
-Debugger 	Ctrl + Shift + S
-Style Editor 	Shift + F7
-Profiler 	Shift + F5
-Network 	Ctrl + Shift + E
-Developer Toolbar 	Shift + F2
-Responsive Design View 	Ctrl + Shift + M
-Scratchpad 	Shift + F4
-Page Source 	Ctrl + U
-Browser Console 	Ctrl + Shift + J
-Page Info 	Ctrl + I
+Command	 							Shortcut
+Downloads 							Ctrl + Shift + Y
+Add-ons 							Ctrl + Shift + A
+Toggle Developer Tools 						F12
+								Ctrl + Shift + I
+Web Console 							Ctrl + Shift + K
+Inspector 							Ctrl + Shift + C
+Debugger 							Ctrl + Shift + S
+Style Editor 							Shift + F7
+Profiler 							Shift + F5
+Network 							Ctrl + Shift + E
+Developer Toolbar 						Shift + F2
+Responsive Design View 						Ctrl + Shift + M
+Scratchpad 							Shift + F4
+Page Source 							Ctrl + U
+Browser Console 						Ctrl + Shift + J
+Page Info 							Ctrl + I
+
 PDF Viewer
-Command 	Shortcut
-Next page 	N or J or →
-Previous page 	P or K or ←
-Zoom in 	Ctrl + +
-Zoom out 	Ctrl + -
-Automatic Zoom 	Ctrl + 0
-Rotate the document clockwise 	R
-Rotate counterclockwise 	Shift + R
-Switch to Presentation Mode 	Ctrl + Alt + P
-Choose Text Selection Tool 	S
-Choose Hand Tool 	H
-Focus the Page Number input box 	Ctrl + Alt + G
+Command 							Shortcut
+Next page 							N or J or →
+Previous page 							P or K or ←
+Zoom in 							Ctrl + +
+Zoom out 							Ctrl + -
+Automatic Zoom 							Ctrl + 0
+Rotate the document clockwise 					R
+Rotate counterclockwise 					Shift + R
+Switch to Presentation Mode 					Ctrl + Alt + P
+Choose Text Selection Tool 					S
+Choose Hand Tool 						H
+Focus the Page Number input box 				Ctrl + Alt + G
 
 Miscellaneous
 Command 	Shortcut
@@ -194,6 +197,7 @@ Alt
 F10
 Toggle Context Menu 	Shift + F10
 Media shortcuts
+
 See also HTML5 audio and video in Firefox.
 Command 	Shortcut
 Toggle Play / Pause 	Space bar
@@ -202,7 +206,7 @@ Increase volume 	↑
 Mute audio 	Ctrl + ↓
 Unmute audio 	Ctrl + ↑
 Seek back 15 seconds 	←
-Seek back 10 % 	Ctrl + ←
+Seek back 10 % 	Ctrl + ←FU
 Seek forward 15 seconds 	→
 Seek forward 10 % 	Ctrl + →
 Seek to the beginning 	Home
