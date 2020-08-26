@@ -3,11 +3,13 @@
 [![][License]][L-link]
 ![][Version]
 
-This Projeck is based off "https://github.com/davatorium/rofi"
+This Projeck is based off [Rofi](https://github.com/davatorium/rofi)
 
 This script put out shortcuts about the active programm. 
 
 ## Screenshots
+an example with vim 
+
 <!--Main frame-->
 <a href="https://ibb.co/MRPPsLM"><img src="https://i.ibb.co/HrGGVQn/programm-list.png" alt="programm-list" border="0"></a>
 
@@ -42,7 +44,7 @@ add in the line "modi":</br>
 ​	<u>shortcuts:$HOME/.config/rofi/rofi-shortcuts.sh</u> 
 
 Example:</br>
-​	*modi: "drun,window,shortcuts:/home/anno/coding/bash-script/short_rofi/rofi-shortcut.sh,";*
+	*modi: "drun,window,shortcuts:$HOME/.config/rofi/rofi-shortcut.sh,";*
 
 And than can show you with command:</br>
 ​	`rofi -show shortcuts`
