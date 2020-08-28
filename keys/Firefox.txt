@@ -1,4 +1,4 @@
-# Navigation	
+# Navigation
 Shortcut	Command
 Alt+←		Back
 Ctrl+[		Back
@@ -11,49 +11,49 @@ Ctrl+R		Reload
 Ctrl+F5		Reload (override cache)
 Ctrl+Shift+R	Reload (override cache)
 Esc		Stop
-		
-Current Page		
-Command 								Shortcut
-Focus Next Link or Input Field 						Tab
-Focus Previous Link or Input Field 					Shift+Tab
-Go Down a Screen	 						Page Down
-									Space bar
-Go Up a Screen 								Page Up
-									Shift+Space bar
-Go to Bottom of Page 							End
-									Ctrl+↓
-Go to Top of Page 							Home
-									Ctrl+↑
-Move to Next Frame 							F6
-Move to Previous Frame 							Shift+F6
-Print 									Ctrl+P
-Save Focused Link 							Alt+Enter
-Save Page As 								Ctrl+S
-Zoom In 								Ctrl++
-Zoom Out 								Ctrl+-
-Zoom Reset 								Ctrl+0
-		
-Editing		
-Command 								Shortcut
-Copy 									Ctrl+C
-Cut 									Ctrl+X
-Delete 									Del
-Delete Word to the Left 						Ctrl+Backspace
-Delete Word to the Right 						Ctrl+Del
-Go one Word to the Left 						Ctrl+←
-Go one Word to the Right 						Ctrl+→
-Go to Beginning of Line 						Home
-Go to End of Line 							End
-Go to Beginning of Text 						Ctrl+Home
-Go to End of Text 							Ctrl+End
-Paste 									Ctrl+V
-Paste (as plain text) 							Ctrl+Shift+V
-Redo 									Ctrl+Y
-									Ctrl+Shift+Z
-Select All 								Ctrl+A
-Undo 									Ctrl+Z
 
-Search
+# Current Page
+Shortcut	Command
+Tab		Focus Next Link or Input Field
+Shift+Tab	Focus Previous Link or Input Field
+Page Down	Go Down a Screen
+Space bar	Go Down a Screen
+Page Up		Go Up a Screen
+Shift+Space bar	Go Up a Screen
+End		Go to Bottom of Page
+Ctrl+↓		Go to Bottom of Page
+Home		Go to Top of Page
+Ctrl+↑		Go to Top of Page
+F6		Move to Next Frame
+Shift+F6	Move to Previous Frame
+Ctrl+P		Print
+Alt+Enter	Save Focused Link
+Ctrl+S		Save Page As
+Ctrl++		Zoom In
+Ctrl+-		Zoom Out
+Ctrl+0		Zoom Reset
+
+# Editing
+Shortcut	Command
+Ctrl+C		Copy
+Ctrl+X		Cut
+Del		Delete
+Ctrl+Backspace	Delete Word to the Left
+Ctrl+Del	Delete Word to the Right
+Ctrl+←		Go one Word to the Left
+Ctrl+→		Go one Word to the Right
+Home		Go to Beginning of Line
+End		Go to End of Line
+Ctrl+Home	Go to Beginning of Text
+Ctrl+End	Go to End of Text
+Ctrl+V		Paste
+Ctrl+Shift+V	Paste (as plain text)
+Ctrl+Y		Redo
+Ctrl+Shift+Z	Redo
+Ctrl+A		Select All
+Ctrl+Z		Undo
+
+# Search
 Command									Shortcut 	
 Find in This Page		 					Ctrl+F 	
 Find Again 								F3
