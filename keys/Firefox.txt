@@ -54,26 +54,26 @@ Ctrl+A		Select All
 Ctrl+Z		Undo
 
 # Search
-Command									Shortcut 	
-Find in This Page		 					Ctrl+F 	
-Find Again 								F3
-									Ctrl+G 	
-Find Previous 								Shift+F3
-									Ctrl+Shift+G 	
-Quick Find within link-text only 					' 	
-Quick Find 								/ 	
-Close the Find or Quick Find bar		 			Esc	
-Switch Search Engine 							Alt+↓
-									Alt+↑ 	
-Focus Address bar for Web Search (writes "? " there) 			Ctrl+K
-									Ctrl+J
-Focus Search bar 							Ctrl+K
-									Ctrl+J
-Change the Default Search Engine 					Ctrl+↓
-									Ctrl+↑ 	
-View menu to switch, add or manage search engines 			Alt+↓
-									Alt+↑
-									F4
+Shortcut	Command
+Ctrl+F		Find in This Page
+F3		Find Again
+Ctrl+G		Find Again
+Shift+F3	Find Previous
+Ctrl+Shift+G	Find Previous
+'		Quick Find within link-text only
+/		Quick Find
+Esc		Close the Find or Quick Find bar
+Alt+↓		Switch Search Engine
+Alt+↑		Switch Search Engine
+Ctrl+K		Focus Address bar for Web Search (writes "? " there)
+Ctrl+J		Focus Address bar for Web Search
+Ctrl+K		Focus Search bar
+Ctrl+J		Focus Search bar
+Ctrl+↓		Change the Default Search Engine
+Ctrl+↑		Change the Default Search Engine
+Alt+↓		View menu to switch, add or manage search engines
+Alt+↑		View menu to switch, add or manage search engines
+F4		View menu to switch, add or manage search engines
 									
 Windows & Tabs
 Command 								Shortcut
