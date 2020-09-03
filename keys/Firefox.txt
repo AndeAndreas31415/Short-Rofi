@@ -75,74 +75,74 @@ Alt+↓		View menu to switch, add or manage search engines
 Alt+↑		View menu to switch, add or manage search engines
 F4		View menu to switch, add or manage search engines
 									
-Windows & Tabs
-Command 								Shortcut
-Close Tab					 			Ctrl+W
-Close Tab except for Pinned Tabs					Ctrl+F4
-Close Window 								Ctrl+Shift+W
-									Alt+F4
-Cycle through Tabs in Recently Used Order 				Ctrl+Tab
-Quit 									Ctrl+Q
-Go one Tab to the Left 							Ctrl+Page Up
-									Ctrl+Shift+Tab	
-Go one Tab to the Right 						Ctrl+Page Down
-									Ctrl+Tab
-Go to Tab 1 to 8 							Alt+1 to 8
-Go to Last Tab 								Alt+9
-Move Tab Left 								Ctrl+Shift+Page Up
-Move Tab Right 								Ctrl+Shift+Page Down
-Move Tab to start 							Ctrl+Shift+Home
-Move Tab to end 							Ctrl+Shift+End
-Mute/Unmute Audio 							Ctrl+M
-New Tab 								Ctrl+T
-New Window 								Ctrl+N
-New Private Window 							Ctrl+Shift+P
-Open Address or Search in New Background Tab 				Alt+Shift+Enter	
-Open Address or Search in New Foreground Tab 				Alt+Enter	
-Open Address or Search in New Window 					Shift+Enter	
-Open Search in New Background Tab 					Ctrl+Enter
-Open Search in New Foreground Tab 					Ctrl+Shift+Enter
-Open Focused Bookmark or Link in Current Tab 				Enter
-Open Focused Bookmark in New Foreground Tab 				Ctrl+Enter
-Open Focused Bookmark in New Background Tab 				Ctrl+Shift+Enter
-Open Focused Link in New Background Tab 				Ctrl+Enter
-Open Focused Link in New Foreground Tab 				Ctrl+Shift+Enter
-Open Focused Bookmark or Link in New Window 				Shift+Enter
-Undo Close Tab 								Ctrl+Shift+T
-Undo Close Window 							Ctrl+Shift+N
-Moves the URL left or right (if cursor is in the address bar) 		Ctrl+Shift+X 
+# Windows & Tabs
+Shortcut		Command
+Ctrl+W			Close Tab
+Ctrl+F4			Close Tab except for Pinned Tabs
+Ctrl+Shift+W		Close Window
+Alt+F4			Close Window
+Ctrl+Tab		Cycle through Tabs in Recently Used Order
+Ctrl+Q			Quit
+Ctrl+Page Up		Go one Tab to the Left
+Ctrl+Shift+Tab		Go one Tab to the Left
+Ctrl+Page Down		Go one Tab to the Right
+Ctrl+Tab		Go one Tab to the Right
+Alt+1 to 8		Go to Tab 1 to 8
+Alt+9			Go to Last Tab
+Ctrl+Shift+Page Up	Move Tab Left
+Ctrl+Shift+Page Down	Move Tab Right
+Ctrl+Shift+Home		Move Tab to start
+Ctrl+Shift+End		Move Tab to end
+Ctrl+M			Mute/Unmute Audio
+Ctrl+T			New Tab
+Ctrl+N			New Window
+Ctrl+Shift+P		New Private Window
+Alt+Shift+Enter		Open Address or Search in New Background Tab
+Alt+Enter		Open Address or Search in New Foreground Tab
+Shift+Enter		Open Address or Search in New Window
+Ctrl+Enter		Open Search in New Background Tab
+Ctrl+Shift+Enter	Open Search in New Foreground Tab
+Enter			Open Focused Bookmark or Link in Current Tab
+Ctrl+Enter		Open Focused Bookmark in New Foreground Tab
+Ctrl+Shift+Enter	Open Focused Bookmark in New Background Tab
+Ctrl+Enter		Open Focused Link in New Background Tab
+Ctrl+Shift+Enter	Open Focused Link in New Foreground Tab
+Shift+Enter		Open Focused Bookmark or Link in New Window
+Ctrl+Shift+T		Undo Close Tab
+Ctrl+Shift+N		Undo Close Window
+Ctrl+Shift+X		Moves the URL left or right (if cursor is in the address bar)
 
-History	
-Command 								Shortcut
-History sidebar 							Ctrl+H
-Library window (History) 						Ctrl+Shift+H
-Clear Recent History 							Ctrl+Shift+Del 
+# History
+Shortcut	Command
+Ctrl+H		History sidebar
+Ctrl+Shift+H	Library window (History)
+Ctrl+Shift+Del	Clear Recent History
 
-Bookmarks	
-Command 								Shortcut
-Bookmark This Page 							Ctrl+D
-Bookmarks sidebar 							Ctrl+B
-Library window (Bookmarks) 						Ctrl+Shift+O
-Show List of All Bookmarks. 						Space
+# Bookmarks
+Shortcut	Command
+Ctrl+D		Bookmark This Page
+Ctrl+B		Bookmarks sidebar
+Ctrl+Shift+O	Library window (Bookmarks)
+Space		Show List of All Bookmarks.
 
-Tools	
-Command	 								Shortcut
-Downloads 								Ctrl+Shift+Y
-Add-ons 								Ctrl+Shift+A
-Toggle Developer Tools 							F12
-									Ctrl+Shift+I
-Web Console 								Ctrl+Shift+K
-Inspector 								Ctrl+Shift+C
-Debugger 								Ctrl+Shift+S
-Style Editor 								Shift+F7
-Profiler 								Shift+F5
-Network 								Ctrl+Shift+E
-Developer Toolbar 							Shift+F2
-Responsive Design View 							Ctrl+Shift+M
-Scratchpad 								Shift+F4
-Page Source 								Ctrl+U
-Browser Console 							Ctrl+Shift+J
-Page Info 								Ctrl+I 
+# Tools
+Shortcut	Command
+Ctrl+Shift+Y	Downloads
+Ctrl+Shift+A	Add-ons
+F12		Toggle Developer Tools
+Ctrl+Shift+I	Toggle Developer Tools
+Ctrl+Shift+K	Web Console
+Ctrl+Shift+C	Inspector
+Ctrl+Shift+S	Debugger
+Shift+F7	Style Editor
+Shift+F5	Profiler
+Ctrl+Shift+E	Network
+Shift+F2	Developer Toolbar
+Ctrl+Shift+M	Responsive Design View
+Shift+F4	Scratchpad
+Ctrl+U		Page Source
+Ctrl+Shift+J	Browser Console
+Ctrl+I		Page Info 
 
 PDF Viewer	
 Command 								Shortcut
