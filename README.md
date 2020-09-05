@@ -22,7 +22,7 @@ an example with vim
 </br>
 ​	`chmod +x $HOME/.config/rofi/rofi-shortcuts.sh`	
 
-### Run this script from Cli (*Terminal*)
+### Run this command from Cli (*Terminal*)
 
 ​	`rofi -modi shortcut:$HOME/.config/rofi/rofi-shortcut.sh -show shortcut`
 
