@@ -144,43 +144,42 @@ Ctrl+U		Page Source
 Ctrl+Shift+J	Browser Console
 Ctrl+I		Page Info 
 
-PDF Viewer	
-Command 								Shortcut
-Next page 								N or J or →
-Previous page 								P or K or ←
-Zoom in 								Ctrl++
-Zoom out 								Ctrl+-
-Automatic Zoom 								Ctrl+0
-Rotate the document clockwise 						R
-Rotate counterclockwise 						Shift+R
-Switch to Presentation Mode 						Ctrl+Alt+P
-Choose Text Selection Tool 						S
-Choose Hand Tool 							H
-Focus the Page Number input box 					Ctrl+Alt+G 
+# PDF Viewer
+Shortcut	Command
+N or J or →	Next page
+P or K or ←	Previous page
+Ctrl++		Zoom in
+Ctrl+-		Zoom out
+Ctrl+0		Automatic Zoom
+R		Rotate the document clockwise
+Shift+R		Rotate counterclockwise
+Ctrl+Alt+P	Switch to Presentation Mode
+S		Choose Text Selection Tool
+H		Choose Hand Tool
+Ctrl+Alt+G	Focus the Page Number input box
 
-Miscellaneous	
-Command 								Shortcut
-Complete .com Address 							Ctrl+Enter
-Delete Selected Autocomplete Entry 					Shift+Del
-Toggle Full Screen 							F11
-Toggle Menu Bar activation (showing it temporarily when hidden) 	Alt or F10
-Toggle Reader Mode 							Ctrl+Alt+R
-Caret Browsing 								F7
-Focus Address Bar 							F6
-									Alt+D
-									Ctrl+L
-Focus Search Field in Library 						F6
-									Ctrl+F
-Stop Autoscroll Mode 							Esc
-Cancel Drag-and-Drop Operation 						Esc
-Clear Search Field in Library or Sidebar 				Esc
-Close a Menu 								Esc
-									Alt
-									F10
-Toggle Context Menu 							Shift+F10
+# Miscellaneous
+Shortcut	Command
+Ctrl+Enter	Complete .com Address
+Shift+Del	Delete Selected Autocomplete Entry
+F11		Toggle Full Screen
+Alt or F10	Toggle Menu Bar activation (showing it temporarily when hidden)
+Ctrl+Alt+R	Toggle Reader Mode
+F7		Caret Browsing
+F6		Focus Address Bar
+Alt+D		Focus Address Bar
+Ctrl+L		Focus Address Bar
+F6		Focus Search Field in Library
+Ctrl+F		Focus Search Field in Library
+Esc		Stop Autoscroll Mode
+Esc		Cancel Drag-and-Drop Operation
+Esc		Clear Search Field in Library or Sidebar
+Esc		Close a Menu
+Alt		Close a Menu
+F10		Close a Menu
+Shift+F10	Toggle Context Menu
+
 Media shortcuts
-
-See also HTML5 audio and video in Firefox.
 Command 								Shortcut
 Toggle Play / Pause 							Space bar
 Decrease volume 							↓
