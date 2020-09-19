@@ -89,7 +89,7 @@ run_short_func (){
 }
 
 search_key(){
-	echo $Keys|tr ' ' '\n'
+	echo $Keys|tr ' ' '\n'|sed "s/^/Shortcuts for /g"
 }
 
 if [ "$@" ] 
