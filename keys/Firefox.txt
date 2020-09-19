@@ -1,204 +1,192 @@
 # Navigation
-Shortcut	Command
-Alt+←		Back
-Ctrl+[		Back
-Alt+→		Forward
-Ctrl+]		Forward
-Alt+Home	Home
-Ctrl+O		Open File
-F5		Reload
-Ctrl+R		Reload
-Ctrl+F5		Reload (override cache)
-Ctrl+Shift+R	Reload (override cache)
-Esc		Stop
+-> Alt+← "Back"
+-> Ctrl+[ "Back"
+-> Alt+→ "Forward"
+-> Ctrl+] "Forward"
+-> Alt+Home "Home"
+-> Ctrl+O "Open File"
+-> F5 "Reload"
+-> Ctrl+R "Reload"
+-> Ctrl+F5 "Reload(override cache)"
+-> Ctrl+Shift+R "Reload(override cache)"
+-> Esc "Stop"
 
 # Current Page
-Shortcut	Command
-Tab		Focus Next Link or Input Field
-Shift+Tab	Focus Previous Link or Input Field
-Page Down	Go Down a Screen
-Space bar	Go Down a Screen
-Page Up		Go Up a Screen
-Shift+Space bar	Go Up a Screen
-End		Go to Bottom of Page
-Ctrl+↓		Go to Bottom of Page
-Home		Go to Top of Page
-Ctrl+↑		Go to Top of Page
-F6		Move to Next Frame
-Shift+F6	Move to Previous Frame
-Ctrl+P		Print
-Alt+Enter	Save Focused Link
-Ctrl+S		Save Page As
-Ctrl++		Zoom In
-Ctrl+-		Zoom Out
-Ctrl+0		Zoom Reset
+-> Tab "Focus Next Link or Input Field"
+-> Shift+Tab "Focus Previous Link or Input Field"
+-> Page Down "Go Down a Screen"
+-> Space bar "Go Down a Screen"
+-> Page Up "Go Up a Screen"
+-> Shift+Space bar "Go Up a Screen"
+-> End "Go to Bottom of Page"
+-> Ctrl+↓ "Go to Bottom of Page"
+-> Home "Go to Top of Page"
+-> Ctrl+↑ "Go to Top of Page"
+-> F6 "Move to Next Frame"
+-> Shift+F6 "Move to Previous Frame"
+-> Ctrl+P "Print"
+-> Alt+Enter "Save Focused Link"
+-> Ctrl+S "Save Page As"
+-> Ctrl++ "Zoom In"
+-> Ctrl+- "Zoom Out"
+-> Ctrl+0 "Zoom Reset"
 
 # Editing
-Shortcut	Command
-Ctrl+C		Copy
-Ctrl+X		Cut
-Del		Delete
-Ctrl+Backspace	Delete Word to the Left
-Ctrl+Del	Delete Word to the Right
-Ctrl+←		Go one Word to the Left
-Ctrl+→		Go one Word to the Right
-Home		Go to Beginning of Line
-End		Go to End of Line
-Ctrl+Home	Go to Beginning of Text
-Ctrl+End	Go to End of Text
-Ctrl+V		Paste
-Ctrl+Shift+V	Paste (as plain text)
-Ctrl+Y		Redo
-Ctrl+Shift+Z	Redo
-Ctrl+A		Select All
-Ctrl+Z		Undo
+-> Ctrl+C "Copy"
+-> Ctrl+X "Cut"
+-> Del "Delete"
+-> Ctrl+Backspace "Delete Word to the Left"
+-> Ctrl+Del "Delete Word to the Right"
+-> Ctrl+← "Go one Word to the Left"
+-> Ctrl+→ "Go one Word to the Right"
+-> Home "Go to Beginning of Line"
+-> End "Go to End of Line"
+-> Ctrl+Home "Go to Beginning of Text"
+-> Ctrl+End "Go to End of Text"
+-> Ctrl+V "Paste"
+-> Ctrl+Shift+V "Paste (as plain text)"
+-> Ctrl+Y "Redo"
+-> Ctrl+Shift+Z "Redo"
+-> Ctrl+A "Select All"
+-> Ctrl+Z "Undo"
 
 # Search
-Shortcut	Command
-Ctrl+F		Find in This Page
-F3		Find Again
-Ctrl+G		Find Again
-Shift+F3	Find Previous
-Ctrl+Shift+G	Find Previous
-'		Quick Find within link-text only
-/		Quick Find
-Esc		Close the Find or Quick Find bar
-Alt+↓		Switch Search Engine
-Alt+↑		Switch Search Engine
-Ctrl+K		Focus Address bar for Web Search (writes "? " there)
-Ctrl+J		Focus Address bar for Web Search
-Ctrl+K		Focus Search bar
-Ctrl+J		Focus Search bar
-Ctrl+↓		Change the Default Search Engine
-Ctrl+↑		Change the Default Search Engine
-Alt+↓		View menu to switch, add or manage search engines
-Alt+↑		View menu to switch, add or manage search engines
-F4		View menu to switch, add or manage search engines
-									
+-> Ctrl+F "Find in This Page"
+-> F3 "Find Again"
+-> Ctrl+G "Find Again"
+-> Shift+F3 "Find Previous"
+-> Ctrl+Shift+G "Find Previous"
+-> ' "Quick Find within link-text only"
+-> / "Quick Find"
+-> Esc "Close the Find or Quick Find bar"
+-> Alt+↓ "Switch Search Engine"
+-> Alt+↑ "Switch Search Engine"
+-> Ctrl+K "Focus Address bar for Web Search (writes "? " there)"
+-> Ctrl+J "Focus Address bar for Web Search"
+-> Ctrl+K "Focus Search bar"
+-> Ctrl+J "Focus Search bar"
+-> Ctrl+↓ "Change the Default Search Engine"
+-> Ctrl+↑ "Change the Default Search Engine"
+-> Alt+↓ "View menu to switch, add or manage search engines"
+-> Alt+↑ "View menu to switch, add or manage search engines"
+-> F4 "View menu to switch, add or manage search engines"
+
 # Windows & Tabs
-Shortcut		Command
-Ctrl+W			Close Tab
-Ctrl+F4			Close Tab except for Pinned Tabs
-Ctrl+Shift+W		Close Window
-Alt+F4			Close Window
-Ctrl+Tab		Cycle through Tabs in Recently Used Order
-Ctrl+Q			Quit
-Ctrl+Page Up		Go one Tab to the Left
-Ctrl+Shift+Tab		Go one Tab to the Left
-Ctrl+Page Down		Go one Tab to the Right
-Ctrl+Tab		Go one Tab to the Right
-Alt+1 to 8		Go to Tab 1 to 8
-Alt+9			Go to Last Tab
-Ctrl+Shift+Page Up	Move Tab Left
-Ctrl+Shift+Page Down	Move Tab Right
-Ctrl+Shift+Home		Move Tab to start
-Ctrl+Shift+End		Move Tab to end
-Ctrl+M			Mute/Unmute Audio
-Ctrl+T			New Tab
-Ctrl+N			New Window
-Ctrl+Shift+P		New Private Window
-Alt+Shift+Enter		Open Address or Search in New Background Tab
-Alt+Enter		Open Address or Search in New Foreground Tab
-Shift+Enter		Open Address or Search in New Window
-Ctrl+Enter		Open Search in New Background Tab
-Ctrl+Shift+Enter	Open Search in New Foreground Tab
-Enter			Open Focused Bookmark or Link in Current Tab
-Ctrl+Enter		Open Focused Bookmark in New Foreground Tab
-Ctrl+Shift+Enter	Open Focused Bookmark in New Background Tab
-Ctrl+Enter		Open Focused Link in New Background Tab
-Ctrl+Shift+Enter	Open Focused Link in New Foreground Tab
-Shift+Enter		Open Focused Bookmark or Link in New Window
-Ctrl+Shift+T		Undo Close Tab
-Ctrl+Shift+N		Undo Close Window
-Ctrl+Shift+X		Moves the URL left or right (if cursor is in the address bar)
+-> Ctrl+W "Close Tab"
+-> Ctrl+F4 "Close Tab except for Pinned Tabs"
+-> Ctrl+Shift+W "Close Window"
+-> Alt+F4 "Close Window"
+-> Ctrl+Tab "Cycle through Tabs in Recently Used Order"
+-> Ctrl+Q "Quit"
+-> Ctrl+Page Up "Go one Tab to the Left"
+-> Ctrl+Shift+Tab "Go one Tab to the Left"
+-> Ctrl+Page Down "Go one Tab to the Right"
+-> Ctrl+Tab "Go one Tab to the Right"
+-> Alt+1 to 8 "Go to Tab 1 to 8"
+-> Alt+9 "Go to Last Tab"
+-> Ctrl+Shift+Page Up "Move Tab Left"
+-> Ctrl+Shift+Page Down "Move Tab Right"
+-> Ctrl+Shift+Home "Move Tab to start"
+-> Ctrl+Shift+End "Move Tab to end"
+-> Ctrl+M "Mute/Unmute Audio"
+-> Ctrl+T "New Tab"
+-> Ctrl+N "New Window"
+-> Ctrl+Shift+P "New Private Window"
+-> Alt+Shift+Enter "Open Address or Search in New Background Tab"
+-> Alt+Enter "Open Address or Search in New Foreground Tab"
+-> Shift+Enter "Open Address or Search in New Window"
+-> Ctrl+Enter "Open Search in New Background Tab"
+-> Ctrl+Shift+Enter "Open Search in New Foreground Tab"
+-> Enter "Open Focused Bookmark or Link in Current Tab"
+-> Ctrl+Enter "Open Focused Bookmark in New Foreground Tab"
+-> Ctrl+Shift+Enter "Open Focused Bookmark in New Background Tab"
+-> Ctrl+Enter "Open Focused Link in New Background Tab"
+-> Ctrl+Shift+Enter "Open Focused Link in New Foreground Tab"
+-> Shift+Enter "Open Focused Bookmark or Link in New Window"
+-> Ctrl+Shift+T "Undo Close Tab"
+-> Ctrl+Shift+N "Undo Close Window"
+-> Ctrl+Shift+X "Moves the URL left or right (if cursor is in the address bar)"
 
 # History
-Shortcut	Command
-Ctrl+H		History sidebar
-Ctrl+Shift+H	Library window (History)
-Ctrl+Shift+Del	Clear Recent History
+-> Ctrl+H "History sidebar"
+-> Ctrl+Shift+H "Library window (History)"
+-> Ctrl+Shift+Del "Clear Recent History"
 
 # Bookmarks
-Shortcut	Command
-Ctrl+D		Bookmark This Page
-Ctrl+B		Bookmarks sidebar
-Ctrl+Shift+O	Library window (Bookmarks)
-Space		Show List of All Bookmarks.
+-> Ctrl+D "Bookmark This Page"
+-> Ctrl+B "Bookmarks sidebar"
+-> Ctrl+Shift+O "Library window (Bookmarks)"
+-> Space "Show List of All Bookmarks."
 
 # Tools
-Shortcut	Command
-Ctrl+Shift+Y	Downloads
-Ctrl+Shift+A	Add-ons
-F12		Toggle Developer Tools
-Ctrl+Shift+I	Toggle Developer Tools
-Ctrl+Shift+K	Web Console
-Ctrl+Shift+C	Inspector
-Ctrl+Shift+S	Debugger
-Shift+F7	Style Editor
-Shift+F5	Profiler
-Ctrl+Shift+E	Network
-Shift+F2	Developer Toolbar
-Ctrl+Shift+M	Responsive Design View
-Shift+F4	Scratchpad
-Ctrl+U		Page Source
-Ctrl+Shift+J	Browser Console
-Ctrl+I		Page Info 
+-> Ctrl+Shift+Y "Downloads"
+-> Ctrl+Shift+A "Add-ons"
+-> F12 "Toggle Developer Tools"
+-> Ctrl+Shift+I "Toggle Developer Tools"
+-> Ctrl+Shift+K "Web Console"
+-> Ctrl+Shift+C "Inspector"
+-> Ctrl+Shift+S "Debugger"
+-> Shift+F7 "Style Editor"
+-> Shift+F5 "Profiler"
+-> Ctrl+Shift+E "Network"
+-> Shift+F2 "Developer Toolbar"
+-> Ctrl+Shift+M "Responsive Design View"
+-> Shift+F4 "Scratchpad"
+-> Ctrl+U "Page Source"
+-> Ctrl+Shift+J "Browser Console"
+-> Ctrl+I "Page Info"
 
 # PDF Viewer
-Shortcut	Command
-N or J or →	Next page
-P or K or ←	Previous page
-Ctrl++		Zoom in
-Ctrl+-		Zoom out
-Ctrl+0		Automatic Zoom
-R		Rotate the document clockwise
-Shift+R		Rotate counterclockwise
-Ctrl+Alt+P	Switch to Presentation Mode
-S		Choose Text Selection Tool
-H		Choose Hand Tool
-Ctrl+Alt+G	Focus the Page Number input box
+-> N or J or → "Next page"
+-> P or K or ← "Previous page"
+-> Ctrl++ "Zoom in"
+-> Ctrl+- "Zoom out"
+-> Ctrl+0 "Automatic Zoom"
+-> R "Rotate the document clockwise"
+-> Shift+R "Rotate counterclockwise"
+-> Ctrl+Alt+P "Switch to Presentation Mode"
+-> S "Choose Text Selection Tool"
+-> H "Choose Hand Tool"
+-> Ctrl+Alt+G "Focus the Page Number input box"
 
 # Miscellaneous
-Shortcut	Command
-Ctrl+Enter	Complete .com Address
-Shift+Del	Delete Selected Autocomplete Entry
-F11		Toggle Full Screen
-Alt or F10	Toggle Menu Bar activation (showing it temporarily when hidden)
-Ctrl+Alt+R	Toggle Reader Mode
-F7		Caret Browsing
-F6		Focus Address Bar
-Alt+D		Focus Address Bar
-Ctrl+L		Focus Address Bar
-F6		Focus Search Field in Library
-Ctrl+F		Focus Search Field in Library
-Esc		Stop Autoscroll Mode
-Esc		Cancel Drag-and-Drop Operation
-Esc		Clear Search Field in Library or Sidebar
-Esc		Close a Menu
-Alt		Close a Menu
-F10		Close a Menu
-Shift+F10	Toggle Context Menu
+-> Ctrl+Enter "Complete .com Address"
+-> Shift+Del "Delete Selected Autocomplete Entry"
+-> F11 "Toggle Full Screen"
+-> Alt or F10 "Toggle Menu Bar activation (showing it temporarily when hidden)"
+-> Ctrl+Alt+R "Toggle Reader Mode"
+-> F7 "Caret Browsing"
+-> F6 "Focus Address Bar"
+-> Alt+D "Focus Address Bar"
+-> Ctrl+L "Focus Address Bar"
+-> F6 "Focus Search Field in Library"
+-> Ctrl+F "Focus Search Field in Library"
+-> Esc "Stop Autoscroll Mode"
+-> Esc "Cancel Drag-and-Drop Operation"
+-> Esc "Clear Search Field in Library or Sidebar"
+-> Esc "Close a Menu"
+-> Alt "Close a Menu"
+-> F10 "Close a Menu"
+-> Shift+F10 "Toggle Context Menu"
 
-Media shortcuts
-Command 								Shortcut
-Toggle Play / Pause 							Space bar
-Decrease volume 							↓
-Increase volume 							↑
-Mute audio 								Ctrl+↓
-Unmute audio 								Ctrl+↑
-Seek back 15 seconds							←
-Seek back 10 % 								Ctrl+←FU
-Seek forward 15 seconds 						→
-Seek forward 10 % 							Ctrl+→
-Seek to the beginning 							Home
-Seek to the end 							End
+# Media shortcuts
+-> Space bar "Toggle Play / Pause"
+-> ↓ "Decrease volume"
+-> ↑ "Increase volume"
+-> Ctrl+↓ "Mute audio"
+-> Ctrl+↑ "Unmute audio"
+-> ← "Seek back 15 seconds"
+-> Ctrl+← "Seek back 10 %"
+-> → "Seek forward 15 seconds"
+-> Ctrl+→ "Seek forward 10 %"
+-> Home "Seek to the beginning"
+-> End "Seek to the end"
 
-Selection of Multiple Tabs
-Command 								Shortcut
-Select left, right, first or last tab. Deselect all other tabs. 	Arrow Keys
-									Home
-									End
-Move the dotted rectangle to left, right, first or last tab. 		Ctrl+Arrow Keys
-									Ctrl+Home
-									Ctrl+End
-Select or deselect the tab with the dotted rectangle.			Ctrl+Space
+# Selection of Multiple Tabs
+-> Arrow Keys "Select left, right, first or last tab. Deselect all other tabs."
+-> Home "Select left, right, first or last tab. Deselect all other tabs."
+-> End "Select left, right, first or last tab. Deselect all other tabs."
+-> Ctrl+Arrow Keys "Move the dotted rectangle to left, right, first or last tab."
+-> Ctrl+Home "Move the dotted rectangle to left, right, first or last tab."
+-> Ctrl+End "Move the dotted rectangle to left, right, first or last tab."
+-> Ctrl+Space "Select or deselect the tab with the dotted rectangle."
