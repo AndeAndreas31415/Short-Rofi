@@ -1,5 +1,448 @@
+# Getting Help ….
+Show Keyboard Shortcuts Shift+F1
 
-REAPER Default Keyboard Shortcuts Summary: Main Section v 2.42 July 2008Page 1 To determine generally what is shown on screen and screen appearance .... To display the windows for various settings and options .... To Navigate and Zoom within a REAPER project (cont) .... Display Actions menu Alt+A  About Reaper Ctrl+F1  Track height, expand selected ! Colour theme, use next Ctrl+Alt+PgDn  Action List ?  Track height, minimize all @ Colour theme, use previous Ctrl+Alt+PgUp  FX Chain for selected item Shift+E  Track height, toggle maximum Shift+` Full Screen View (toggle) F11  Item Properties F2  Track height, toggle minimum ` Grid Lines display (toggle) Alt+G  Item Source Properties Ctrl+F2  Zoom in horizontal +  or   = Load Track View #01 F4  Jump to Time Ctrl+J  Zoom in vertical PgUp Load Track View #03 F5  Keyboard Shortcuts Shift+F1  Zoom out horizontal - Load Track View #03 F6  Lock Settings Shift+L  Zoom out vertical PgDn Load Windows Set #01 F7  Preferences Ctrl+P  Zoom in to time selection Ctrl+PgUp Load Windows Set #02 F8  Project Settings Alt+Enter  Zoom out to project (horizontal) Ctrl+PgDn Load Windows Set #03 F9  Snap/grid Settings Alt+L Transport Control Shortcuts ....Save Track View #01 Shift+F4  Visualization configuration Alt+K  Fast forward a little bit Ctrl+Right Save Track View #03 Shift+F5  Visualization preferences Ctrl+K  Go to end of project End Save Track View #03 Shift+F6 To Navigate and Zoom within a project ....Go to start of project W or  Home Save Windows Set #01 Shift+F7  Cursor, go to Shift+’  Play (skipping time selection) Alt+Space Save Windows Set #02 Shift+F8  End of project, go to End Ctrl+SpaceorSave Windows Set #03 Shift+F9  Marker, go next or project end ] Play/pause EnterShow takes in lanes (toggle) Ctrl+L  Marker, go previous or project start [  Play/stop SpaceShow/Hide big clock window Alt+C  Marker, go to marker 10 0  Record Ctrl+R Show/Hide docker Alt+D  Marker, go to marker number 1 thru  9  Rewind a little bit Ctrl+Left Show/Hide FX browser window Shift+F  Marker, set or move marker 10 Ctrl 0  Toggle repeat R Show/Hide master in track view Ctrl+Alt+M  Marker, set/move marker number Ctrl 1 thru9 Show/Hide media explorer Ctrl+Alt+X  Move cursor left Left File Management Shortcuts .... Show/Hide mixer Ctrl M  Move cursor right Right  New project Ctrl+N Show/Hide navigator window Ctrl+Alt+V  Move cursor left to grid division Ctrl+Shift+Left  Open project Ctrl+O Show/Hide performance meter Ctrl+Alt+P  Move cursor right to grid division Ctrl+Shift+Right  Project settings... Alt+Enter Show/Hide routing matrix  Alt+R  Scroll view down / uo Alt+Dwn Alt+Up  Quit REAPER Ctrl+Q Show/Hide screen sets window Ctrl+E  Scroll view left p Alt+Left  Render project to disk... Ctrl+Alt+R Show/Hide undo history window Ctrl+Alt+Z  Scroll view right Alt+Right  Save live output to disk (bounce) Ctrl+Alt+B Show/Hide virtual MIDI keyboard Alt+B  Start of project, go to W or  Home  Save project Ctrl+S Show/Hide video window Ctrl+Shift+V  Track, go to next Ctrl+Alt+Dn  Save project as... Ctrl+Alt+S Visualization show (toggle) Ctrl+Shift+K  Track, go to previous Ctrl+Alt+Up  Spawn new instance of REAPER Ctrl+Alt+N 
-REAPER Default Keyboard Shortcuts Summary: Main Section v 2.42 July 2008Page 2 Working with Media Items ....Working with Media Items (cont) ....Mouse modifiers when working with items  Auto crossfading, toggle Alt+X  Pitch item down one cent Shift+7 Item movement mouse modifiers .... Copy loop of selected area of item Ctrl+Alt+L  Pitch item down one semitone Shift+9  Disable snapping Shift Copy selected  area of items  Ctrl+Shift+C  Pitch item up one cent Shift+8  Ignore grouping Ctrl Copy selected item(s) Ctrl+C  Pitch item up one semitone Shift+0  Move item but not contents Alt Cut selected area of selected items Ctrl+Delete  Redo previous action Ctrl+Shift+Z  Move contents but not item Alt+Shift Cut selected item(s) Ctrl+X  Ripple editing: cycle modes Alt+P Item edge mouse modifiers ... Delete selected item(s) Delete  Select all items Ctrl+A  Stretches item Alt Group items G  Select all items in group(s) Ctrl+G  Disables snapping Shift Group Override, toggle Ctrl+Alt+G  Show FX chain for item/take Shift+E  Ignores grouping Ctrl Group, remove items from group U  Show source  properties dialog Ctrl+F2 Item fade modifiers ... Grow left edge of selected items Ctrl+Num 4  Show item properties dialog F2  Stretch any overlapping items to fit Alt Grow right edge of selected item Alt+Num 6  Shrink left edge of selected items Ctrl+Num 6  Ignore grouping Ctrl Locking, toggle L  Shrink right edge of selected items Alt+Num 4  Set fade for all selected items Ctrl+Alt Media item, insert Insert  Snapping, toggle Alt+S Move contents of items left Num 1  Split item(s) at edit or play cursor * S Move contents of items right Num 3  Split item(s) at play cursor * Alt+Shift+S Other navigating and editing mouse modifiers .... Move cursor left to edge of item Ctrl+[  Split item(s) at time selection * Shift+S Mousewheel scroll and zoom modifiers ... Move cursor right to edge of item Ctrl+]  Split item(s) ignoring grouping * Ctrl+Shift+S  Scroll horizontal Alt+Wheel Move items down one track Num 2  Toggle items mute  Alt+M  Scroll vertical Ctrl+Alt+Wheel Move items left Num 4  Undo previous action Ctrl+Z  Zoom horizontalWheelMove items left, preserve timing  Num 7   Zoom vertical Ctrl+Wheel Move items right Num 6 Envelope editing mouse modifiers ... Move items right, preserve timing  Num 9 * Applies to currently selected  item(s). If none are selected, applies to all items at cursor position or in time selection. Disable snap-point-to-centre Ctrl Move items up one track Num 8   Point movement horizontal only Alt Move to next transient in item Tab Working with Takes ....  Point movement  vertical only Ctrl+AltMove to previous transient in item Shift+Tab  Show FX Chain for selected take Shift+E  On a point, duplicates point Shift Normalize items Ctrl+Shift+N  Show all takes in lanes if room Ctrl+L  On an segment, moves segment Shift Open items in external editor Ctrl+Alt+E  Crop current take in items Alt+Shift+T Marquee Selection Modifiers Paste selection from clipboard Ctrl+V  Delete current take from items Ctrl+Shift+T  Marquee select items Alt+Rt Click/Drag Peaks: decrease height Shift+Down  Switch items to next take T  Add  items to selection Alt+Shift+Rt Click Peaks: increase height Shift+Up  Switch items to previous take Shift+T  Toggling selected items state Alt+Ctrl+Rt Click 
-REAPER Default Keyboard Shortcuts Summary: Main Section v 2.42 July 2008Page 3 Track controls and track management .... Mouse modifiers for tracks .... Working with Time Selections, Loops, Regions and Markers ....Copy selected track(s) to clipboard Ctrl+C Track selection mouse click modifiers  Add time sig marker from selection Alt+Shift+C Cut selected track(s) to clipboard Ctrl+X  Select a range of tracks Shift  Clear time and loop point selection Esc Delete selected track(s) Delete  Toggle track’s selection status Ctrl  Copy area of items in time selection Ctrl+Shift+C Vol/Pan faders mouse click/drag modifiers  Copy loop of selected area of items Ctrl+Alt+L Go to next track, leaving other tracks selected. Ctrl+Alt+Shft+Dn   Cut selected area of selected items Ctrl+Delete On mouse release, snap fader back to its original position Alt  Extend time selection left a little Ctrl+, Go to previous track, leaving other tracks selected. Ctrl+Alt+Shft+Up   Extend time selection right a little Ctrl+. Go to next track Ctrl+Alt+Down Modify fader on current track only, not other selected tracks Shift  Loop, set begin point Shift+[ Go to previous track Ctrl+Alt+Up  More precise movement Ctrl  Loop, set end point Shift+] Insert new track Ctrl+T  More precise mouse wheel mode Ctrl+Wheel  Marker, insert  M Move selected items down one track Num 2 Mute button mouse click modifiers  Marker, insert and edit Shift+M Move selected items up one track Num 8  Mute track, not others in selections Shift  Marker, insert time signature marker Shift+C Paste track(s) from clipboard Ctrl+V  Clears all mutes Ctrl  Move left and create time selection Shift+Left Select all tracks Ctrl+A  Unmute tracks, mute all others Alt  Move right and create time selection Shift+Right Show Master in track view Ctrl+Alt+M  Mute selected track, unmute others Ctrl+Alt  Nudge left edge of selection left Ctrl+Alt+, Show/hide track Pan envelope P Solo button mouse click modifiers  Nudge right edge of selection right Ctrl+Alt+. Show/hide track Volume envelope V  Solo track, not others in selection Shift  Nudge time selection left , Toggle track mute Alt M  Clear all solos Ctrl  Nudge time selection right . Volume, nudge down for track Ctrl+Down  Solo track only, excludes sends Alt  Region, create from time selection Shift+R Volume, nudge up for track Ctrl+Up  Solos selected tracks, unsolo others Ctrl+Alt  Shift time selection left Shift+, Zoom to max track height (toggle) * Shift+` Mousewheel scroll and zoom modifiers ...  Shift time selection riight Shift+. Zoom to min track height (toggle) `  Scroll horizontal Alt  Split item(s) at time selection Shift+S  Scroll vertical Ctrl+Alt  Zoom to time selection Ctrl+PgUp  Zoom horizontalWheel only Various toggle control keys ....  Zoom vertical Ctrl Toggle auto crossfading Alt+X Time Selection mouse modifiers ... Toggle gridlines Alt+G  Inside selection, move selection.  Getting Help .... Toggle group override Alt+Shift+G  Outside selection, extend selection. Shift+Click +Drag  About REAPER Ctrl+F1 Toggle locking L Show Action List ? Toggle snapping Alt+S Disable snapping Ctrl+Click +Drag Show Keyboard Shortcuts Shift+F1 * Using Standard International English Keyboard. For UK English keyboard, this is Shift+#
+-->/*Page  1*/
 
+# To determine generally what is shown on screen and screen appearance ….
+Display Actions menu Alt+A
+fColour theme, use next Ctrl+Alt+PgDn
+Colour theme, use previous Ctrl+Alt+PgUp
+Full Screen View (toggle) F11
+Grid Lines display (toggle) Alt+G
+Load Track View #01 F4
+Load Track View #03 F5
+Load Track View #03 F6
+Load Windows Set #01 F7
+Load Windows Set #02 F8
+Load Windows Set #03 F9
+Save Track View #01 Shift+F4
+Save Track View #03 Shift+F5
+Save Track View #03 Shift+F6
+Save Windows Set #01 Shift+F7
+Save Windows Set #02 Shift+F8
+Save Windows Set #03 Shift+F9
+Show takes in lanes (toggle) Ctrl+L
+Show/Hide big clock window Alt+C
+Show/Hide docker Alt+D
+Show/Hide FX browser window Shift+F
+Show/Hide master in track view Ctrl+Alt+M
+Show/Hide media explorer Ctrl+Alt+X
+Show/Hide mixer Ctrl M
+Show/Hide navigator window Ctrl+Alt+V
+Show/Hide performance meter Ctrl+Alt+P
+Show/Hide routing matrix Alt+R
+Show/Hide screen sets window Ctrl+E
+Show/Hide undo history window Ctrl+Alt+Z
+Show/Hide virtual MIDI keyboard Alt+B
+Show/Hide video window Ctrl+Shift+V
+Visualization show (toggle) Ctrl+Shift+K
+
+# To display the windows for various settings and options ….
+About Reaper Ctrl+F1
+Action List ?
+FX Chain for selected item Shift+E
+Item Properties F2
+Item Source Properties Ctrl+F2
+Jump to Time Ctrl+J
+Keyboard Shortcuts Shift+F1
+Lock Settings Shift+L
+Preferences Ctrl+P
+Project Settings Alt+Enter
+Snap/grid Settings Alt+L
+Visualization configuration Alt+K
+Visualization preferences Ctrl+K
+
+# To Navigate and Zoom within a project ….
+Cursor, go to Shift+’
+End of project, go to End
+Marker, go next or project end ]
+Marker, go previous or project start [
+Marker, go to marker 10 0
+Marker, go to marker number 1 thru 9
+Marker, set or move marker 10 Ctrl 0
+Marker, set/move marker number Ctrl 1 thru 9
+Move cursor left Left
+Move cursor right Right
+Move cursor left to grid division Ctrl+Shift+Left
+Move cursor right to grid division Ctrl+Shift+Right
+Scroll view down / uo Alt+Dwn Alt+Up
+Scroll view left p Alt+Left
+Scroll view right Alt+Right
+Start of project, go to W or Home
+Track, go to next Ctrl+Alt+Dn
+Track, go to previous Ctrl+Alt+Up
+
+# To Navigate and Zoom within a REAPER project (cont) ….
+Track height, expand selected !
+Track height, minimize all @
+Track height, toggle maximum Shift+`
+Track height, toggle minimum `
+Zoom in horizontal + or =
+Zoom in vertical PgUp
+Zoom out horizontal -
+Zoom out vertical PgDn
+Zoom in to time selection Ctrl+PgUp
+Zoom out to project (horizontal) Ctrl+PgDn
+
+# Transport Control Shortcuts ….
+Fast forward a little bit Ctrl+Right
+Go to end of project End
+Go to start of project W or Home
+Play (skipping time selection) Alt+Space
+Play/pause Ctrl+Space or Enter
+Play/stop Space
+Record Ctrl+R
+Rewind a little bit Ctrl+Left
+Toggle repeat R
+
+# File Management Shortcuts ….
+New project Ctrl+N
+Open project Ctrl+O
+Project settings... Alt+Enter
+Quit REAPER Ctrl+Q
+Render project to disk... Ctrl+Alt+R
+Save live output to disk (bounce) Ctrl+Alt+B
+Save project Ctrl+S
+Save project as... Ctrl+Alt+S
+Spawn new instance of REAPER Ctrl+Alt+N
+
+--------------
+-->/*Page  2*/
+
+# Working with Media Items ….
+Auto crossfading, toggle Alt+X
+Copy loop of selected area of item Ctrl+Alt+L
+Copy selected area of items Ctrl+Shift+C
+Copy selected item(s) Ctrl+C
+Cut selected area of selected items Ctrl+Delete
+Cut selected item(s) Ctrl+X
+Delete selected item(s) Delete
+Group items G
+Group Override, toggle Ctrl+Alt+G
+Group, remove items from group U
+Grow left edge of selected items Ctrl+Num 4
+Grow right edge of selected item Alt+Num 6
+Locking, toggle L
+Media item, insert Insert
+Move contents of items left Num 1
+Move contents of items right Num 3
+Move cursor left to edge of item Ctrl+[
+Move cursor right to edge of item Ctrl+]
+Move items down one track Num 2
+Move items left Num 4
+Move items left, preserve timing Num 7
+Move items right Num 6
+Move items right, preserve timing Num 9
+Move items up one track Num 8
+Move to next transient in item Tab
+Move to previous transient in item Shift+Tab
+Normalize items Ctrl+Shift+N
+Open items in external editor Ctrl+Alt+E
+Paste selection from clipboard Ctrl+V
+Peaks: decrease height Shift+Down
+Peaks: increase height Shift+Up
+
+# Working with Media Items (cont) ….
+Pitch item down one cent Shift+7
+Pitch item down one semitone Shift+9
+Pitch item up one cent Shift+8
+Pitch item up one semitone Shift+0
+Redo previous action Ctrl+Shift+Z
+Ripple editing: cycle modes Alt+P
+Select all items Ctrl+A
+Select all items in group(s) Ctrl+G
+Show FX chain for item/take Shift+E
+Show source properties dialog Ctrl+F2
+Show item properties dialog F2
+Shrink left edge of selected items Ctrl+Num 6
+Shrink right edge of selected items Alt+Num 4
+Snapping, toggle Alt+S
+Split item(s) at edit or play cursor * S
+Split item(s) at play cursor * Alt+Shift+S
+Split item(s) at time selection * Shift+S
+Split item(s) ignoring grouping * Ctrl+Shift+S
+Toggle items mute Alt+M
+Undo previous action Ctrl+Z
+
+# Working with Takes ….
+Show FX Chain for selected take Shift+E
+Show all takes in lanes if room Ctrl+L
+Crop current take in items Alt+Shift+T
+Delete current take from items Ctrl+Shift+T
+Switch items to next take T
+Switch items to previous take Shift+T
+
+# Mouse modifiers when working with items
+
+# Item movement mouse modifiers ….
+Disable snapping Shift
+Ignore grouping Ctrl
+Move item but not contents Alt
+Move contents but not item Alt+Shift
+
+# Item edge mouse modifiers …
+Stretches item Alt
+Disables snapping Shift
+Ignores grouping Ctrl
+
+# Item fade modifiers …
+Stretch any overlapping items to fit Alt
+Ignore grouping Ctrl
+Set fade for all selected items Ctrl+Alt
+
+# Other navigating and editing mouse modifiers ….
+
+# Mousewheel scroll and zoom modifiers …
+Scroll horizontal Alt+Wheel
+Scroll vertical Ctrl+Alt+Wheel
+Zoom horizontal Wheel
+Zoom vertical Ctrl+Wheel
+
+# Envelope editing mouse modifiers …
+Disable snap-point-to-centre Ctrl
+Point movement horizontal only Alt
+Point movement vertical only Ctrl+Alt
+On a point, duplicates point Shift
+On an segment, moves segment Shift
+
+# Marquee Selection Modifiers
+Marquee select items Alt+Rt Click/Drag
+Add items to selection Alt+Shift+Rt Click
+Toggling selected items state Alt+Ctrl+Rt Click
+
+--------------
+-->/*Page  3*/
+
+# Track controls and track management ….
+Copy selected track(s) to clipboard Ctrl+C
+Cut selected track(s) to clipboard Ctrl+X
+Delete selected track(s) Delete
+Go to next track, leaving other tracks selected. Ctrl+Alt+Shft+Dn
+Go to previous track, leaving other tracks selected. Ctrl+Alt+Shft+Up
+Go to next track Ctrl+Alt+Down
+Go to previous track Ctrl+Alt+Up
+Insert new track Ctrl+T
+Move selected items down one track Num 2
+Move selected items up one track Num 8
+Paste track(s) from clipboard Ctrl+V
+Select all tracks Ctrl+A
+Show Master in track view Ctrl+Alt+M
+Show/hide track Pan envelope P
+Show/hide track Volume envelope V
+Toggle track mute Alt M
+Volume, nudge down for track Ctrl+Down
+Volume, nudge up for track Ctrl+Up
+Zoom to max track height (toggle) * Shift+`
+Zoom to min track height (toggle) `
+
+# Various toggle control keys ….
+Toggle auto crossfading Alt+X
+Toggle gridlines Alt+G
+Toggle group override Alt+Shift+G
+Toggle locking L
+Toggle snapping Alt+S
+About REAPER Ctrl+F1
+
+# Mouse modifiers for tracks ….
+
+# Track selection mouse click modifiers
+Select a range of tracks Shift
+Toggle track’s selection status Ctrl
+
+# Vol/Pan faders mouse click/drag modifiers
+On mouse release, snap fader back to its original position Alt
+Modify fader on current track only, not other selected tracks Shift
+More precise movement Ctrl
+More precise mouse wheel mode Ctrl+Wheel
+
+# Mute button mouse click modifiers
+Mute track, not others in selections Shift
+Clears all mutes Ctrl
+Unmute tracks, mute all others Alt
+Mute selected track, unmute others Ctrl+Alt
+
+# Solo button mouse click modifiers
+Solo track, not others in selection Shift
+Clear all solos Ctrl
+Solo track only, excludes sends Alt
+Solos selected tracks, unsolo others Ctrl+Alt
+
+# Mousewheel scroll and zoom modifiers …
+Scroll horizontal Alt
+Scroll vertical Ctrl+Alt
+Zoom horizontal Wheel only
+Zoom vertical Ctrl
+
+# Time Selection mouse modifiers …
+Inside selection, move selection. Shift+Click+Drag
+Outside selection, extend selection. Shift+Click+Drag
+Disable snapping Ctrl+Click +Drag
+Show Action List ?
+
+# Working with Time Selections, Loops, Regions and Markers .…
+Add time sig marker from selection Alt+Shift+C
+Clear time and loop point selection Esc
+Copy area of items in time selection Ctrl+Shift+C
+Copy loop of selected area of items Ctrl+Alt+L
+Cut selected area of selected items Ctrl+Delete
+Extend time selection left a little Ctrl+,
+Extend time selection right a little Ctrl+.
+Loop, set begin point Shift+[
+Loop, set end point Shift+]
+Marker, insert M
+Marker, insert and edit Shift+M
+Marker, insert time signature marker Shift+C
+Move left and create time selection Shift+Left
+Move right and create time selection Shift+Right
+Nudge left edge of selection left Ctrl+Alt+,
+Nudge right edge of selection right Ctrl+Alt+.
+Nudge time selection left ,
+Nudge time selection right .
+Region, create from time selection Shift+R
+Shift time selection left Shift+,
+Shift time selection riight Shift+.
+Split item(s) at time selection Shift+S
+Zoom to time selection Ctrl+PgUp
+
+--------------
+-->/*Page  4*/
+
+# Mixer View … 
+
+# FX Item Mouse Click Modifiers
+Bypass FX Shift+Click
+Delete FX Alt+Click
+Float FX configuration Click
+Offline FX Ctrl+Shft+Click
+Show FX Chain Ctrl+Click
+
+# FX Bypass Mouse Click Modifiers
+Global FX Chain Bypass (toggle) Ctrl+Click
+Track FX Chain Bypass (toggle) Click
+
+# Sends Mouse Click Modifiers
+Mute Send Shift+Click
+Remove Send Alr+Click
+Show Send Click
+Show Track Routing Window Ctrl+Click
+
+# VU Meter Peaks
+Reset all VU meter peaks Ctrl+Click
+Reset track VU meter epak Click
+
+# Navigator View
+Snap location of area shown in track view to mouse click position Click
+Snap location of area shown in track view to click, horizontal only Ctrl+Click
+Define size of area to be displayed in track view Right Click/Drag
+Drag Navigator to change location of area shown in track view Click/Drag
+
+# Mouse Click Modifiers
+On empty cell in tracks grid, create send Click
+On existing send in tracks grid, remove send Click
+On existing send in tracks grid, show controls Right Click
+On empty cell in audio inputs grid, select audio input for track Click
+On existing audio input on grid, arm/disarm track (toggle) Click
+
+# Performance Meter
+On any track number, display track FX Chain window Double Click
+On any track number, show options to Show FX, Toggle FX Bypass or Toggle Track Mute Right Click
+
+# FX Browser Window
+Add FX to selection Ctrl+Click
+Add selected FX to FX chain Double Click
+Select FX Click
+
+# Undo History
+Restore project to selected event or action Double Click
+
+--------------
+-->/*Page  5*/
+
+# MIDI Editing shortcuts ….
+Copy Ctrl+C
+Cut Ctrl+X
+Decrease active position 1 octave Alt+Shift+Down
+Decrease active position 1one semitone Ctrl+Num 2 or Shift+Down
+Delete notes Delete
+Increase active position 1 octave Alt+Shift+Up
+Increase active position 1 semitone Shift+Up or Ctrl+Num 8
+Insert note at edit cursor Ctrl+Num 5 or I or Shift+I
+Insert note at mouse cursor Insert
+Move edit cursor left by grid Left or Ctrl+Num 4
+Move edit cursor left one pixel Shift+Left or Ctrl+Alt+Num 4
+Move edit cursor right by grid Ctrl+Num 6 or Right
+Move edit cursor right one pixel Shift+Right or Ctrl+Alt+Num 6
+Move notes down one octave Alt+Num 2
+Move notes down one semitone Num 2 or Ctrl+Down
+Move notes left one grid unit Ctrl+Left or Num 4
+Move notes left one pixel Ctrl+Shift+Left or Alt+Num 4
+Move notes right one grid unit Num 6 or Ctrl+Right
+Move notes right one pixel Alt+Num 6 or Ctrl+Shift+Rt
+
+# MIDI Editing shortcuts (cont) ….
+Move notes up one octave Alt+Num 8
+Move notes up one semitone Num 8 or Ctrl+Up
+Mute events Alt+M
+Note properties Ctrl+F2
+Paste Ctrl+V
+Paste, preserving pos in measure Ctrl+Shift+V
+Redo Ctrl+Shift+Z
+Select all Ctrl+A
+Split items S
+Split items at mouse cursor Shift+S
+Undo Ctrl+Z
+
+# MIDI Editor View and Mode shortcuts ….
+Go to edit cursor "
+Go to end of file End
+Go to play cursor '
+Go to start of file Home
+Scroll view down Alt+Down
+Scroll view left Alt+Left
+Scroll view right Alt+Right
+Scroll view up Alt+Up
+Select Drum Map Mode Alt+2
+Select Event List Mode Alt+3
+Select Piano Roll Mode Alt+1
+Show events as fixed length Alt+7
+Toggle grid Alt+G
+Toggle show note names Alt+0
+Toggle show velocity handles Alt+9
+Toggle snapping Alt+S
+Zoom in horizontally + or Up
+Zoom in vertically Pg Up
+Zoom out horizontally - or Down
+Zoom out vertically Pg Dn
+
+# MIDI Editor Miscellaneous shortcuts ….
+File: Revert file (MIDI file mode only) Alt+R
+File: Save file (MIDI file mode only) Ctrl+S
+Toggle single click to add notes mode Alt+8
+Quantize events window Q
+Transport: play/pause Ctrl+Space
+Transport: play/stop Space
+Transport: toggle repeat R
+
+# MIDI Event List Editor shortcuts .…
+Edit: Copy Ctrl+C
+Edit: Cut Ctrl+X
+Edit: delete notes Delete
+Edit: insert note at edit cursor I
+Edit: insert note at mouse cursor Insert
+Edit: mute events Alt+M
+Edit: note properties Ctrl+F2
+Edit: paste Ctrl+V
+Edit: Redo Ctrl+Shift+Z
+Edit: select all Ctrl+A
+Edit: Undo Ctrl+Z
+File: Revert file (MIDI file mode only) Alt+R
+File: Save file (MIDI file mode only) Ctrl+S
+Mode: Drum Map Alt+2
+Mode: Event List Alt+3
+Mode: Piano Roll Alt+1
+Quantize events window Q
+Transport: play/pause Ctrl+Space
+Transport: play/stop Space
+Transport: toggle repeat R
+View: Go to edit cursor "
+View: Go to play cursor '
