@@ -49,8 +49,11 @@ Example:</br>
 And than can show you with command:</br>
 ​	`rofi -show shortcuts`
 
+On this [Site](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet) can you look whiche programms are supported:
+[Supported Programms](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet)
 
 ToDo:
+
 - automatic key press (have you a idea then try them out and then send me the solution)
 - add more cheat sheet
 
