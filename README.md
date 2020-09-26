@@ -18,36 +18,36 @@ an example with vim
 
 
 ## How to add to rofi:
-​	`git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOMsE/.config/rofi/`
+	`git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOMsE/.config/rofi/`
 </br>
-​	`chmod +x $HOME/.config/rofi/rofi-shortcuts.sh`	
+	`chmod +x $HOME/.config/rofi/rofi-shortcuts.sh`	
 
 ### Run this command from Cli (*Terminal*)
 
-​	`rofi -modi shortcut:$HOME/.config/rofi/rofi-shortcut.sh -show shortcut`
+	`rofi -modi shortcut:$HOME/.config/rofi/rofi-shortcut.sh -show shortcut`
 
 ### Add the script to rofi modi 
 
 Edit the *config from rofi*:
 
-​	​	`nano $HOME/.config/rofi/config.rasi`
+		`nano $HOME/.config/rofi/config.rasi`
 </br>
 or
 </br>
-​	​	`vim $HOME/.config/rofi/config.rasi`
+		`vim $HOME/.config/rofi/config.rasi`
 </br>
 or 
 </br>
-​	​	`$"Your favorit text editor" $HOME/.config/rofi/config.rasi`
+		`$"Your favorit text editor" $HOME/.config/rofi/config.rasi`
 
 add in the line "modi":</br>
-​	<u>shortcuts:$HOME/.config/rofi/rofi-shortcuts.sh</u> 
+	<u>shortcuts:$HOME/.config/rofi/rofi-shortcuts.sh</u> 
 
 Example:</br>
 	*modi: "drun,window,shortcuts:$HOME/.config/rofi/rofi-shortcut.sh,";*
 
 And than can show you with command:</br>
-​	`rofi -show shortcuts`
+	`rofi -show shortcuts`
 
 On this [Site](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet) can you look whiche programms are supported:
 [Supported Programms](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet)
