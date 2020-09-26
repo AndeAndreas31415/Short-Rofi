@@ -32,9 +32,9 @@ main(){
 	Output_Main+="Shortcuts for Xfce4 \"Display Manager\"\n"
 
 	case $window in
+#		*"$Custom"*)	Output_Main+="Shortcuts for $Custom \n";;
 		*"Firefox"*)	Output_Main+="Shortcuts for Firefox \n" ;; #&& Next="firefox";;
 		*"Arduino"*)	Output_Main+="Shortcuts for Arduino \n";;
-#		*"Evolution"*)	Output_Main+="Shortcuts for Evolution \n";;
 		*"gedit"*)	Output_Main+="Shortcuts for Gedit \n";;
 		*"REAPER"*) 	Output_Main+="Shortcuts for Reaper \n";;
 		*"Terminal"*)	Next="terminal";;
