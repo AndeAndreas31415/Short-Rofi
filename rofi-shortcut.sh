@@ -44,8 +44,8 @@ main(){
 	if [[ "$Next" == *"terminal"* ]]
 	then
 		case $if_tmux_acti in
-			*"zsh"*)	echo -n "Nothing";;
-			*"bash"*)	echo -n "Nothing";;
+			*"zsh"*)	echo "";;
+			*"bash"*)	echo "";;
 			*)		Output_Main+="Shortcuts for " && Output_Main+=$(echo $if_tmux_acti);;
 		esac
 	fi
