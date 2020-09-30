@@ -59,6 +59,8 @@ ToDo:
 
 Ideas and solutions send it to me  [E-mail:(andreas_coding@gmx.de)](andreas_coding@gmx.de)
 
+P.s.: <u><i><b>Please read the [wiki](https://github.com/AndeAndreas31415/Short-Rofi/wiki)</b></i></u>
+
 <!-- Variables for this Readme file-->
 
 [License]: https://img.shields.io/badge/License-MIT-blue
