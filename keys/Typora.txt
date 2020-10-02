@@ -9,69 +9,71 @@
 -> Ctrl+, "Preference"
 -> Ctrl+W "Close"
 
-Edit
-Function 			Hotkey
-New Paragraph 			Enter
-New Line 			Shift+Enter
-Cut 				Ctrl+X
-Copy 				Ctrl+C
-Paste 				Ctrl+V
-Copy As Markdown 		Ctrl+Shift+C
-Paste As Plain Text 		Ctrl+Shift+V
-Select All 			Ctrl+A
-Select Line/Sentence
-Select Row (in table) 		Ctrl+L
-Delete Row (in table) 		Ctrl+Shift+Backspace
-Select Style Scope
-Select Cell (in table) 		Ctrl+E
-Select Word 			Ctrl+D
-Delete Word 			Ctrl+Shift+D
-Jump to Top 			Ctrl+Home
-Jump to Selection 		Ctrl+J
-Jump to Buttom 			Ctrl+End
-Find 				Ctrl+F
-Find Next 			F3 or Enter
-Find Previous 			Shift+F3 or Shift+Enter
-Replace 			Ctrl+H
+# Edit
+-> Enter "New Paragraph"
+-> Shift+Enter "New Line"
+-> Ctrl+X "Cut"
+-> Ctrl+C "Copy"
+-> Ctrl+V "Paste"
+-> Ctrl+Shift+C "Copy As Markdown"
+-> Ctrl+Shift+V "Paste As Plain Text"
+-> Ctrl+A "Select All"
 
-Paragraph
-Function 			Hotkey
-Heading 1 to 6 			Ctrl+1-6
-Paragraph 			Ctrl+0
-Increase Heading Level 		Ctrl+=
-Decrease Heading Level 		Ctrl+-
-Table 				Ctrl+T
-Code Fences 			Ctrl+Shift+K
-Math Block 			Ctrl+Shift+M
-Quote 				Ctrl+Shift+Q
-Ordered List 			Ctrl+Shift+[
-Unordered List 			Ctrl+Shift+]
-Indent 				Ctrl+[ or Tab
-Outdent 			Ctrl+] or Shift+Tab
+# Select Line/Sentence
+-> Ctrl+L "Select Row (in table)"
+-> Ctrl+Shift+Backspace "Delete Row (in table)"
 
-Format
-Function 			Hotkey
-Strong 				Ctrl+B
-Emphasis 			Ctrl+I
-Underline 			Ctrl+U
-Code 				Ctrl+Shift+`
-Strike 				Alt+Shift+5
-Hyperlink			Ctrl+K
-Image 				Ctrl+Shift+I
-Clear Format 			Ctrl+\
+# Select Style Scope
+-> Ctrl+E "Select Cell (in table)"
+-> Ctrl+D "Select Word"
+-> Ctrl+Shift+D "Delete Word"
+-> Ctrl+Home "Jump to Top"
+-> Ctrl+J "Jump to Selection"
+-> Ctrl+End "Jump to Buttom"
+-> Ctrl+F "Find"
+-> F3 "Find Next"
+-> Enter "Find Next"
+-> Shift+F3 "Find Previous"
+-> Shift+Enter "Find Previous"
+-> Ctrl+H "Replace
 
-View
-Function 			Hotkey
-Toggle Sidebar 			Ctrl+Shift+L
-Outline 			Ctrl+Shift+1
-Articles 			Ctrl+Shift+2
-File Tree 			Ctrl+Shift+3
-Source Code Mode 		Ctrl+/
-Focus Mode 			F8
-Typewriter Mode 		F9
-Toggler Fullscreen 		F11
-Actual Size 			Ctrl+Shift+0
-Zoom In 			Ctrl+Shift+=
-Zoom Out 			Ctrl+Shift+-
-Switch Between Opened Documents	Ctrl+Tab
-Toggle DevTools 		Ctrl+Shift+I
+# Paragraph
+-> Ctrl+1-6 "Heading 1 to 6"
+-> Ctrl+0 "Paragraph"
+-> Ctrl+= "Increase Heading Level"
+-> Ctrl+- "Decrease Heading Level"
+-> Ctrl+T "Table"
+-> Ctrl+Shift+K "Code Fences"
+-> Ctrl+Shift+M "Math Block"
+-> Ctrl+Shift+Q "Quote"
+-> Ctrl+Shift+[ "Ordered List"
+-> Ctrl+Shift+] "Unordered List"
+-> Ctrl+[ "Indent"
+-> Tab "Indent"
+-> Ctrl+] "Outdent"
+-> Shift+Tab "Outdent"
+
+# Format
+-> Ctrl+B "Strong"
+-> Ctrl+I "Emphasis"
+-> Ctrl+U "Underline"
+-> Ctrl+Shift+` "Code"
+-> Alt+Shift+5 "Strike"
+-> Ctrl+K "Hyperlink"
+-> Ctrl+Shift+I "Image"
+-> Ctrl+\ "Clear Format"
+
+# View
+-> Ctrl+Shift+L "Toggle Sidebar"
+-> Ctrl+Shift+1 "Outline"
+-> Ctrl+Shift+2 "Articles"
+-> Ctrl+Shift+3 "File Tree"
+-> Ctrl+/ "Source Code Mode"
+-> F8 "Focus Mode"
+-> F9 "Typewriter Mode"
+-> F11 "Toggler Fullscreen"
+-> Ctrl+Shift+0 "Actual Size"
+-> Ctrl+Shift+= "Zoom In"
+-> Ctrl+Shift+- "Zoom Out"
+-> Ctrl+Tab "Switch Between Opened Documents"
+-> Ctrl+Shift+I "Toggle DevTools" 
