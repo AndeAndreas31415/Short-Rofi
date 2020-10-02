@@ -37,6 +37,7 @@ main(){
 		*"Arduino"*)	Output_Main+="Shortcuts for Arduino \n";;
 		*"gedit"*)	Output_Main+="Shortcuts for Gedit \n";;
 		*"REAPER"*) 	Output_Main+="Shortcuts for Reaper \n";;
+		*"Typora"*)	Output_Main+="Shortcuts for Typora \n";;
 		*"Terminal"*)	Next="terminal";;
 		*)		echo "" ;;
 	esac
