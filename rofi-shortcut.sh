@@ -22,45 +22,23 @@ fi
 # a debug message
 #echo "Debug 0"
 
-main(){
-#select programm window 
-	
-#	a debug message
-#	echo "Debug 1"
-
-	Output_Main="All Shortcuts \n"
-	Output_Main+="Shortcuts for Xfce4 \"Display Manager\"\n"
-
-	case $window in
-#		*"$Custom"*)	Output_Main+="Shortcuts for $Custom \n";;
-		*"Firefox"*)	Output_Main+="Shortcuts for Firefox \n" ;; #&& Next="firefox";;
-		*"Arduino"*)	Output_Main+="Shortcuts for Arduino \n";;
-		*"gedit"*)	Output_Main+="Shortcuts for Gedit \n";;
-		*"REAPER"*) 	Output_Main+="Shortcuts for Reaper \n";;
-		*"Typora"*)	Output_Main+="Shortcuts for Typora \n";;
-		*"Terminal"*)	Next="terminal";;
-		*)		echo "" ;;
-	esac
-	
-	if [[ "$Next" == *"terminal"* ]]
+terminal (){
+	if [[ "$window" == *"tmux"* ]]
 	then
+		#Terminal with tmux
 		case $if_tmux_acti in
-			*"zsh"*)	echo "";;
-			*"bash"*)	echo "";;
-			*)		Output_Main+="Shortcuts for " && Output_Main+=$(echo $if_tmux_acti);;
+			*"vim"*)	Output_Main+="Shortcuts for Vim \n";;
+			*)		echo "" ;;
+		esac
+	else
+		#Terminal default
+		ter_win=($(echo $window|tr "-" "\n"))
+		case ${ter_win[1]} in
+			*"vim"*)	Output_Main+="Shortcuts for Vim \n";;
+			*)		echo "" ;;
 		esac
 	fi
-
-#	if [[ "$Next" == *"firefox"* ]]
-#	then
-#		Output_Main+="  └─ Shortcuts for "
-#		Output_Main+=$(echo $window|grep -o "YouTube")
-#	fi
-
-#	echo -e $window
-	echo -e "${Output_Main}"
 }
-
 second_frame (){
 #cat the shortcuts file 
 
@@ -91,6 +69,36 @@ run_short_func (){
 
 search_key(){
 	echo $Keys|tr ' ' '\n'|sed "s/^/Shortcuts for /g"
+}
+
+main(){
+#select programm window 
+	
+#	a debug message
+#	echo "Debug 1"
+
+	Output_Main="All Shortcuts \n"
+	Output_Main+="Shortcuts for Xfce4 \"Display Manager\"\n"
+
+	case $window in
+#		*"$Custom"*)	Output_Main+="Shortcuts for $Custom \n";;
+		*"Firefox"*)	Output_Main+="Shortcuts for Firefox \n" ;; #&& Next="firefox";;
+		*"Arduino"*)	Output_Main+="Shortcuts for Arduino \n";;
+		*"gedit"*)	Output_Main+="Shortcuts for Gedit \n";;
+		*"REAPER"*) 	Output_Main+="Shortcuts for Reaper \n";;
+		*"Typora"*)	Output_Main+="Shortcuts for Typora \n";;
+		*"Terminal"*)	terminal;;
+		*)		echo "" ;;
+	esac
+
+#	if [[ "$Next" == *"firefox"* ]]
+#	then
+#		Output_Main+="  └─ Shortcuts for "
+#		Output_Main+=$(echo $window|grep -o "YouTube")
+#	fi
+
+#	echo -e $window
+	echo -e "${Output_Main}"
 }
 
 if [ "$@" ] 
