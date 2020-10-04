@@ -64,5 +64,5 @@ P.s.: <u><i><b>Please read the [wiki](https://github.com/AndeAndreas31415/Short-
 <!-- Variables for this Readme file-->
 
 [License]: https://img.shields.io/badge/License-MIT-blue
-[Version]: https://img.shields.io/badge/Version-Alpha-red
+[Version]: https://img.shields.io/badge/Version-Beta-red
 [L-link]: ./LICENSE
