@@ -80,17 +80,19 @@ main(){
 	Output_Main="All Shortcuts \n"
 	Output_Main+="Shortcuts for Xfce4 \"Display Manager\"\n"
 
+	Output_Main+="Shortcuts for "
 	case $window in
 #		*"$Custom"*)	Output_Main+="Shortcuts for $Custom \n";;
-		*"Firefox"*)	Output_Main+="Shortcuts for Firefox \n" ;; #&& Next="firefox";;
-		*"Arduino"*)	Output_Main+="Shortcuts for Arduino \n";;
-		*"gedit"*)	Output_Main+="Shortcuts for Gedit \n";;
-		*"REAPER"*) 	Output_Main+="Shortcuts for Reaper \n";;
-		*"Typora"*)	Output_Main+="Shortcuts for Typora \n";;
+		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
+		*"Arduino"*)	Output_Main+="Arduino";;
+		*"gedit"*)	Output_Main+="Gedit";;
+		*"REAPER"*) 	Output_Main+="Reaper";;
+		*"Typora"*)	Output_Main+="Typora";;
+		*"Zrythm"*)	Output_Main+="Zrythm";;
 		*"Terminal"*)	terminal;;
 		*)		echo "" ;;
 	esac
-
+	Output_Main+=" \n"
 #	if [[ "$Next" == *"firefox"* ]]
 #	then
 #		Output_Main+="  └─ Shortcuts for "
