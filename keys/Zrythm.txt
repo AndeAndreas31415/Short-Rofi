@@ -1,1 +1,48 @@
-https://manual.zrythm.org/en/appendix/shortcut-keys.html
+# General
+-> ctrl+shift+p "Preferences"
+-> ctrl+shift+? "Keyboard Shortcuts"
+-> F11 "Toggle Fullscreen"
+-> alt+F4 "Quit"
+
+# Panels
+-> ctrl+shift+4 "Toggle left panel"
+-> ctrl+shift+6 "Toggle right panel"
+-> ctrl+shift+2 "Toggle bottom panel"
+
+# Project
+-> ctrl+n "Create new project"
+-> ctrl+o "Open a project"
+-> ctrl+s "Save the project"
+
+# Copy and Paste
+-> ctrl+c "Copy selection to clipboard"
+-> ctrl+x "Cut selection to clipboard"
+-> ctrl+v "Paste from clipboard"
+
+# Undo and Redo
+-> ctrl+z "Undo previous command"
+-> ctrl+shift+z "Redo previous command"
+
+# Selections
+-> ctrl+a "Select all"
+-> ctrl+\ "Unselect all"
+
+# Tool
+-> 1 "Select/Stretch tool"
+-> 2 "Pencil tool"
+-> 3 "Eraser tool"
+-> 4 "Ramp tool"
+-> 5 "Audition tool"
+
+# Zooming
+-> ctrl+= "Zoom in"
+-> ctrl+- "Zoom out"
+-> ctrl+[ "Best fit"
+-> ctrl++ "Original size"
+
+# Quantizing
+-> q "Quick Quantize"
+-> ctrl+q "Quantize"
+
+# Looping
+-> ctrl+l "Loop selection"
