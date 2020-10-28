@@ -78,7 +78,7 @@ main(){
 #	echo "Debug 1"
 
 	Output_Main="All Shortcuts \n"
-	Output_Main+="Shortcuts for Xfce4 \"Display Manager\"\n"
+#	Output_Main+="Shortcuts for Xfce4 \"Display Manager\"\n"
 
 	Output_Main+="Shortcuts for "
 	case $window in
