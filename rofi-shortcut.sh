@@ -86,6 +86,7 @@ main(){
 		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
 		*"Arduino"*)	Output_Main+="Arduino";;
 		*"gedit"*)	Output_Main+="Gedit";;
+		*"GNU Image Manipulation Program"*)	Output_Main+="Gimp";;
 		*"REAPER"*) 	Output_Main+="Reaper";;
 		*"Typora"*)	Output_Main+="Typora";;
 		*"Zrythm"*)	Output_Main+="Zrythm";;
