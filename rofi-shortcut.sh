@@ -22,24 +22,26 @@ fi
 # a debug message
 #echo "Debug 0"
 
-terminal (){
+terminal(){
 	if [[ "$window" == *"tmux"* ]]
 	then
 		#Terminal with tmux
 		case $if_tmux_acti in
-			*"vim"*)	Output_Main+="Shortcuts for Vim \n";;
-			*)		echo "" ;;
+			*"vim"*)	re="Vim";;
+			*)		re="";;
 		esac
 	else
 		#Terminal default
 		ter_win=($(echo $window|tr "-" "\n"))
 		case ${ter_win[1]} in
-			*"vim"*)	Output_Main+="Shortcuts for Vim \n";;
-			*)		echo "" ;;
+			*"vim"*)	re="Vim";;
+			*)		re="";;
 		esac
 	fi
+	echo $re
+#	return $re
 }
-second_frame (){
+second_frame(){
 #cat the shortcuts file 
 
 #	a debug message
@@ -52,7 +54,7 @@ second_frame (){
 	cat $Path_Pro
 }
 
-run_short_func (){
+run_short_func(){
 	if [[ "$Run_shortcut" == *"yes"* ]]
 	then
 		echo -n "Nothing"
@@ -64,7 +66,7 @@ run_short_func (){
 #		notify-send $(pwd)
 #		echo -e "sleep 5 \nxdotool windowactivate "$wn" \nxdotool key "$2"\nnotify-send \"Nice it works\"">run-key.sh
 	fi
-	exit 0
+	exit0
 }
 
 search_key(){
@@ -90,15 +92,20 @@ main(){
 		*"REAPER"*) 	Output_Main+="Reaper";;
 		*"Typora"*)	Output_Main+="Typora";;
 		*"Zrythm"*)	Output_Main+="Zrythm";;
-		*"Terminal"*)	terminal;;
-		*)		echo "" ;;
+		*"Terminal"*)	Output_Main+=$(terminal);;
+		*)		Output_Main=$(echo -e $Output_Main|head -n -1);;
 	esac
-	Output_Main+=" \n"
 #	if [[ "$Next" == *"firefox"* ]]
 #	then
 #		Output_Main+="  └─ Shortcuts for "
 #		Output_Main+=$(echo $window|grep -o "YouTube")
 #	fi
+
+	if [[ "$Output_Main" == *"Shortcuts for " ]]
+	then
+		Output_Main=$(echo -e $Output_Main|head -n -1)
+	fi
+	Output_Main+=" \n"
 
 #	echo -e $window
 	echo -e "${Output_Main}"
