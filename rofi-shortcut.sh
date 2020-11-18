@@ -27,6 +27,7 @@ terminal(){
 	then
 		#Terminal with tmux
 		case $if_tmux_acti in
+#			*"$Custom"*)	re="$Custom";;
 			*"vim"*)	re="Vim";;
 			*)		re="";;
 		esac
@@ -34,6 +35,7 @@ terminal(){
 		#Terminal default
 		ter_win=($(echo $window|tr "-" "\n"))
 		case ${ter_win[1]} in
+#			*"$Custom"*)	re="$Custom";;
 			*"vim"*)	re="Vim";;
 			*)		re="";;
 		esac
@@ -84,7 +86,7 @@ main(){
 
 	Output_Main+="Shortcuts for "
 	case $window in
-#		*"$Custom"*)	Output_Main+="Shortcuts for $Custom \n";;
+#		*"$Custom"*)	Output_Main+="$Custom";;
 		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
 		*"Arduino"*)	Output_Main+="Arduino";;
 		*"gedit"*)	Output_Main+="Gedit";;
