@@ -111,7 +111,7 @@ main(){
 	fi
 	Output_Main+=" \n"
 
-	echo -e "Debug window_name: " $window
+#	echo -e "Debug window_name: " $window
 	echo -e "${Output_Main}"
 }
 
