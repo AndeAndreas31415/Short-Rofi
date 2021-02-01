@@ -1,187 +1,187 @@
-KisToolCrop=C
-KisToolSelectElliptical=J
-KisToolSelectRectangular=Ctrl+R
-KisToolTransform=Ctrl+T
-KritaFill/KisToolFill=F
-KritaFill/KisToolGradient=G
-KritaSelected/KisToolColorPicker=P
-KritaShape/KisToolBrush=B
-KritaShape/KisToolMultiBrush=Q
-KritaTransform/KisToolMove=T
-RenameCurrentLayer=F2
-Select Behind Blending Mode=Alt+Shift+Q
-Select Clear Blending Mode=Alt+Shift+R
-Select Color Blending Mode=Alt+Shift+C
-Select Color Burn Blending Mode=Alt+Shift+B
-Select Color Dodge Blending Mode=Alt+Shift+D
-Select Darken Blending Mode=Alt+Shift+K
-Select Difference Blending Mode=Alt+Shift+E
-Select Dissolve Blending Mode=Alt+Shift+I
-Select Exclusion Blending Mode=Alt+Shift+X
-Select Hard Light Blending Mode=Alt+Shift+H
-Select Hard Mix Blending Mode=Alt+Shift+L
-Select Hard Overlay Blending Mode=Alt+Shift+P
-Select Hue Blending Mode=Alt+Shift+U
-Select Lighten Blending Mode=Alt+Shift+G
-Select Linear Burn Blending Mode=Alt+Shift+A
-Select Linear Dodge Blending Mode=Alt+Shift+W
-Select Linear Light Blending Mode=Alt+Shift+J
-Select Luminosity Blending Mode=Alt+Shift+Y
-Select Multiply Blending Mode=Alt+Shift+M
-Select Normal Blending Mode=Alt+Shift+N
-Select Overlay Blending Mode=Alt+Shift+O
-Select Pin Light Blending Mode=Alt+Shift+Z
-Select Saturation Blending Mode=Alt+Shift+T
-Select Screen Blending Mode=Alt+Shift+S
-Select Soft Light Blending Mode=Alt+Shift+F
-Select Vivid Light Blending Mode=Alt+Shift+V
-activateNextLayer=PgUp
-activatePreviousLayer=PgDown
-activate_preset_0=Ctrl+Alt+0
-activate_preset_1=Ctrl+Alt+1
-activate_preset_2=Ctrl+Alt+2
-activate_preset_3=Ctrl+Alt+3
-activate_preset_4=Ctrl+Alt+4
-activate_preset_5=Ctrl+Alt+5
-activate_preset_6=Ctrl+Alt+6
-activate_preset_7=Ctrl+Alt+7
-activate_preset_8=Ctrl+Alt+8
-activate_preset_9=Ctrl+Alt+9
-add_new_paint_layer=Ins
-canvassize=Ctrl+Alt+C
-clear=Del
-convert-to-path=P
-copy_merged=Ctrl+Shift+C
-copy_selection_to_new_layer=Ctrl+Alt+J
-create_quick_clipping_group=Ctrl+Shift+G
-create_quick_group=Ctrl+G
-cut_selection_to_new_layer=Ctrl+Shift+J
-decrease_brush_size=[
-decrease_opacity=I
-deselect=Ctrl+Shift+A
-duplicatelayer=Ctrl+J
-edit_copy=Ctrl+C
-edit_cut=Ctrl+X
-edit_paste=Ctrl+V
-edit_redo=Ctrl+Shift+Z
-edit_undo=Ctrl+Z
-erase_action=E
-execute_script_1=Ctrl+Shift+1
-execute_script_10=Ctrl+Shift+0
-execute_script_2=Ctrl+Shift+2
-execute_script_3=Ctrl+Shift+3
-execute_script_4=Ctrl+Shift+4
-execute_script_5=Ctrl+Shift+5
-execute_script_6=Ctrl+Shift+6
-execute_script_7=Ctrl+Shift+7
-execute_script_8=Ctrl+Shift+8
-execute_script_9=Ctrl+Shift+9
-featherselection=Shift+F6
-file_close=Ctrl+W
-file_close_all=Ctrl+Shift+W
-file_new=Ctrl+N
-file_open=Ctrl+O
-file_print=Ctrl+P
-file_quit=Ctrl+Q
-file_save=Ctrl+S
-file_save_as=Ctrl+Shift+S
-fill_selection_background_color=Backspace
-fill_selection_background_color_opacity=Ctrl+Backspace
-fill_selection_foreground_color=Shift+Backspace
-fill_selection_foreground_color_opacity=Ctrl+Shift+Backspace
-filter_apply_again=Ctrl+F
-flatten_image=Ctrl+Shift+E
-fullscreen=Ctrl+Shift+F
-gamutCheck=Ctrl+Shift+Y
-help_contents=F1
-imagesize=Ctrl+Alt+I
-increase_brush_size=]
-increase_opacity=O
-invert_selection=Ctrl+Shift+I
-krita_filter_colorbalance=Ctrl+B
-krita_filter_desaturate=Ctrl+Shift+U
-krita_filter_hsvadjustment=Ctrl+U
-krita_filter_invert=Ctrl+I
-krita_filter_levels=Ctrl+L
-krita_filter_perchannel=Ctrl+M
-layer_properties=F3
-level_of_detail_mode=Shift+L
-make_brush_color_darker=K
-make_brush_color_lighter=L
-merge_layer=Ctrl+E
-mirror_canvas=M
-move_layer_down=Ctrl+PgDown
-move_layer_up=Ctrl+PgUp
-movetool-move-down=Down
-movetool-move-down-more=Shift+Down
-movetool-move-left=Left
-movetool-move-left-more=Shift+Left
-movetool-move-right=Right
-movetool-move-right-more=Shift+Right
-movetool-move-up=Up
-movetool-move-up-more=Shift+Up
-movetool-show-coordinates=Ctrl+Alt+Shift+C
-next_favorite_preset=,
-object_order_back=Ctrl+Shift+[
-object_order_front=Ctrl+Shift+]
-object_order_lower=Ctrl+Alt+[
-object_order_raise=Ctrl+Alt+]
-paste_as_reference=Ctrl+Shift+R
-paste_at=Ctrl+Alt+V
-paste_new=Ctrl+Shift+N
-pathpoint-insert=Ins
-pathpoint-join=J
-pathpoint-remove=Backspace
-pathsegment-curve=Shift+C
-pathsegment-line=F
-previous_favorite_preset=.
-previous_preset=/
-quick_ungroup=Ctrl+Alt+G
-remove_layer=Shift+Del
-reselect=Ctrl+Shift+D
-reset_fg_bg=D
-rotate_canvas_left=Ctrl+[
-rotate_canvas_right=Ctrl+]
-save_incremental_backup=F4
-save_incremental_version=Ctrl+Alt+S
-select_all=Ctrl+A
-selection_tool_mode_add=A
-selection_tool_mode_replace=R
-selection_tool_mode_subtract=S
-show_brush_editor=F5
-show_brush_presets=F6
-show_color_history=H
-show_color_selector=Shift+I
-show_common_colors=U
-show_minimal_shade_selector=Shift+N
-show_mypaint_shade_selector=Shift+M
-show_snap_options_popup=Shift+S
-show_tool_options=\\
-softProof=Ctrl+Y
-svg_align_center=Ctrl+Alt+C
-svg_align_justified=Ctrl+Alt+R
-svg_align_right=Ctrl+Alt+R
-svg_decrease_font_size=Ctrl+<
-svg_font=Ctrl+Alt+F
-svg_format_italic=Ctrl+I
-svg_format_subscript=Ctrl+Shift+B
-svg_format_superscript=Ctrl+Shift+P
-svg_format_underline=Ctrl+U
-svg_increase_font_size=Ctrl+>
-svg_insert_special_character=Alt+Shift+C
-svg_line_height=Ctrl+H
-svg_weight_bold=Ctrl+B
-svg_weight_light=Ctrl+L
-svg_weight_normal=Ctrl+N
-switchToPreviouslyActiveNode=;
-tablet_debugger=Ctrl+Shift+T
-toggle_assistant=Ctrl+Shift+L
-toggle_display_selection=Ctrl+H
-toggle_fg_bg=X
-undo_polygon_selection=Shift+Z
-view_grid=Ctrl+Shift+'
-view_show_canvas_only=Tab
-view_snap_to_grid=Ctrl+Shift+;
-view_zoom_in=Ctrl++
-view_zoom_out=Ctrl+-
-zoom_to_100pct=Ctrl+0
+-> C "KisToolCrop"
+-> J "KisToolSelectElliptical"
+-> Ctrl+R "KisToolSelectRectangular"
+-> Ctrl+T "KisToolTransform"
+-> F "KritaFill/KisToolFill"
+-> G "KritaFill/KisToolGradient"
+-> P "KritaSelected/KisToolColorPicker"
+-> B "KritaShape/KisToolBrush"
+-> Q "KritaShape/KisToolMultiBrush"
+-> T "KritaTransform/KisToolMove"
+-> F2 "RenameCurrentLayer"
+-> Alt+Shift+Q "Select Behind Blending Mode"
+-> Alt+Shift+R "Select Clear Blending Mode"
+-> Alt+Shift+C "Select Color Blending Mode"
+-> Alt+Shift+B "Select Color Burn Blending Mode"
+-> Alt+Shift+D "Select Color Dodge Blending Mode"
+-> Alt+Shift+K "Select Darken Blending Mode"
+-> Alt+Shift+E "Select Difference Blending Mode"
+-> Alt+Shift+I "Select Dissolve Blending Mode"
+-> Alt+Shift+X "Select Exclusion Blending Mode"
+-> Alt+Shift+H "Select Hard Light Blending Mode"
+-> Alt+Shift+L "Select Hard Mix Blending Mode"
+-> Alt+Shift+P "Select Hard Overlay Blending Mode"
+-> Alt+Shift+U "Select Hue Blending Mode"
+-> Alt+Shift+G "Select Lighten Blending Mode"
+-> Alt+Shift+A "Select Linear Burn Blending Mode"
+-> Alt+Shift+W "Select Linear Dodge Blending Mode"
+-> Alt+Shift+J "Select Linear Light Blending Mode"
+-> Alt+Shift+Y "Select Luminosity Blending Mode"
+-> Alt+Shift+M "Select Multiply Blending Mode"
+-> Alt+Shift+N "Select Normal Blending Mode"
+-> Alt+Shift+O "Select Overlay Blending Mode"
+-> Alt+Shift+Z "Select Pin Light Blending Mode"
+-> Alt+Shift+T "Select Saturation Blending Mode"
+-> Alt+Shift+S "Select Screen Blending Mode"
+-> Alt+Shift+F "Select Soft Light Blending Mode"
+-> Alt+Shift+V "Select Vivid Light Blending Mode"
+-> PgUp "activateNextLayer"
+-> PgDown "activatePreviousLayer"
+-> Ctrl+Alt+0 "activate_preset_0"
+-> Ctrl+Alt+1 "activate_preset_1"
+-> Ctrl+Alt+2 "activate_preset_2"
+-> Ctrl+Alt+3 "activate_preset_3"
+-> Ctrl+Alt+4 "activate_preset_4"
+-> Ctrl+Alt+5 "activate_preset_5"
+-> Ctrl+Alt+6 "activate_preset_6"
+-> Ctrl+Alt+7 "activate_preset_7"
+-> Ctrl+Alt+8 "activate_preset_8"
+-> Ctrl+Alt+9 "activate_preset_9"
+-> Ins "add_new_paint_layer"
+-> Ctrl+Alt+C "canvassize"
+-> Del "clear"
+-> P "convert-to-path"
+-> Ctrl+Shift+C "copy_merged"
+-> Ctrl+Alt+J "copy_selection_to_new_layer"
+-> Ctrl+Shift+G "create_quick_clipping_group"
+-> Ctrl+G "create_quick_group"
+-> Ctrl+Shift+J "cut_selection_to_new_layer"
+-> [ "decrease_brush_size"
+-> I "decrease_opacity"
+-> Ctrl+Shift+A "deselect"
+-> Ctrl+J "duplicatelayer"
+-> Ctrl+C "edit_copy"
+-> Ctrl+X "edit_cut"
+-> Ctrl+V "edit_paste"
+-> Ctrl+Shift+Z "edit_redo"
+-> Ctrl+Z "edit_undo"
+-> E "erase_action"
+-> Ctrl+Shift+1 "execute_script_1"
+-> Ctrl+Shift+0 "execute_script_10"
+-> Ctrl+Shift+2 "execute_script_2"
+-> Ctrl+Shift+3 "execute_script_3"
+-> Ctrl+Shift+4 "execute_script_4"
+-> Ctrl+Shift+5 "execute_script_5"
+-> Ctrl+Shift+6 "execute_script_6"
+-> Ctrl+Shift+7 "execute_script_7"
+-> Ctrl+Shift+8 "execute_script_8"
+-> Ctrl+Shift+9 "execute_script_9"
+-> Shift+F6 "featherselection"
+-> Ctrl+W "file_close"
+-> Ctrl+Shift+W "file_close_all"
+-> Ctrl+N "file_new"
+-> Ctrl+O "file_open"
+-> Ctrl+P "file_print"
+-> Ctrl+Q "file_quit"
+-> Ctrl+S "file_save"
+-> Ctrl+Shift+S "file_save_as"
+-> Backspace "fill_selection_background_color"
+-> Ctrl+Backspace "fill_selection_background_color_opacity"
+-> Shift+Backspace "fill_selection_foreground_color"
+-> Ctrl+Shift+Backspace "fill_selection_foreground_color_opacity"
+-> Ctrl+F "filter_apply_again"
+-> Ctrl+Shift+E "flatten_image"
+-> Ctrl+Shift+F "fullscreen"
+-> Ctrl+Shift+Y "gamutCheck"
+-> F1 "help_contents"
+-> Ctrl+Alt+I "imagesize"
+-> ] "increase_brush_size"
+-> O "increase_opacity"
+-> Ctrl+Shift+I "invert_selection"
+-> Ctrl+B "krita_filter_colorbalance"
+-> Ctrl+Shift+U "krita_filter_desaturate"
+-> Ctrl+U "krita_filter_hsvadjustment"
+-> Ctrl+I "krita_filter_invert"
+-> Ctrl+L "krita_filter_levels"
+-> Ctrl+M "krita_filter_perchannel"
+-> F3 "layer_properties"
+-> Shift+L "level_of_detail_mode"
+-> K "make_brush_color_darker"
+-> L "make_brush_color_lighter"
+-> Ctrl+E "merge_layer"
+-> M "mirror_canvas"
+-> Ctrl+PgDown "move_layer_down"
+-> Ctrl+PgUp "move_layer_up"
+-> Down "movetool-move-down"
+-> Shift+Down "movetool-move-down-more"
+-> Left "movetool-move-left"
+-> Shift+Left "movetool-move-left-more"
+-> Right "movetool-move-right"
+-> Shift+Right "movetool-move-right-more"
+-> Up "movetool-move-up"
+-> Shift+Up "movetool-move-up-more"
+-> Ctrl+Alt+Shift+C "movetool-show-coordinates"
+-> , "next_favorite_preset"
+-> Ctrl+Shift+[ "object_order_back"
+-> Ctrl+Shift+] "object_order_front"
+-> Ctrl+Alt+[ "object_order_lower"
+-> Ctrl+Alt+] "object_order_raise"
+-> Ctrl+Shift+R "paste_as_reference"
+-> Ctrl+Alt+V "paste_at"
+-> Ctrl+Shift+N "paste_new"
+-> Ins "pathpoint-insert"
+-> J "pathpoint-join"
+-> Backspace "pathpoint-remove"
+-> Shift+C "pathsegment-curve"
+-> F "pathsegment-line"
+-> . "previous_favorite_preset"
+-> / "previous_preset"
+-> Ctrl+Alt+G "quick_ungroup"
+-> Shift+Del "remove_layer"
+-> Ctrl+Shift+D "reselect"
+-> D "reset_fg_bg"
+-> Ctrl+[ "rotate_canvas_left"
+-> Ctrl+] "rotate_canvas_right"
+-> F4 "save_incremental_backup"
+-> Ctrl+Alt+S "save_incremental_version"
+-> Ctrl+A "select_all"
+-> A "selection_tool_mode_add"
+-> R "selection_tool_mode_replace"
+-> S "selection_tool_mode_subtract"
+-> F5 "show_brush_editor"
+-> F6 "show_brush_presets"
+-> H "show_color_history"
+-> Shift+I "show_color_selector"
+-> U "show_common_colors"
+-> Shift+N "show_minimal_shade_selector"
+-> Shift+M "show_mypaint_shade_selector"
+-> Shift+S "show_snap_options_popup"
+-> \\ "show_tool_options"
+-> Ctrl+Y "softProof"
+-> Ctrl+Alt+C "svg_align_center"
+-> Ctrl+Alt+R "svg_align_justified"
+-> Ctrl+Alt+R "svg_align_right"
+-> Ctrl+< "svg_decrease_font_size"
+-> Ctrl+Alt+F "svg_font"
+-> Ctrl+I "svg_format_italic"
+-> Ctrl+Shift+B "svg_format_subscript"
+-> Ctrl+Shift+P "svg_format_superscript"
+-> Ctrl+U "svg_format_underline"
+-> Ctrl+> "svg_increase_font_size"
+-> Alt+Shift+C "svg_insert_special_character"
+-> Ctrl+H "svg_line_height"
+-> Ctrl+B "svg_weight_bold"
+-> Ctrl+L "svg_weight_light"
+-> Ctrl+N "svg_weight_normal"
+-> ; "switchToPreviouslyActiveNode"
+-> Ctrl+Shift+T "tablet_debugger"
+-> Ctrl+Shift+L "toggle_assistant"
+-> Ctrl+H "toggle_display_selection"
+-> X "toggle_fg_bg"
+-> Shift+Z "undo_polygon_selection"
+-> Ctrl+Shift+' "view_grid"
+-> Tab "view_show_canvas_only"
+-> Ctrl+Shift+; "view_snap_to_grid"
+-> Ctrl++ "view_zoom_in"
+-> Ctrl+- "view_zoom_out"
+-> Ctrl+0 "zoom_to_100pct"
