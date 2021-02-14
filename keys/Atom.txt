@@ -1,0 +1,75 @@
+# General
+-> ctrl+,	"Settings"
+-> ctrl+shift+p "Toggle command palette"
+-> ctrl+alt+r 	"Reload Atom"
+-> ctrl+shift+m "Markdown Preview"
+-> ctrl+alt+i 	"Toggle Developer Tools"
+-> ctrl+. 	"Toggle Key Binding Resolver"
+-> alt+shift+s 	"Show snippets"
+
+# Files & Folders
+-> ctrl+n 	"New file"
+-> ctrl+shift+n "New Window"
+-> ctrl+o 	"Open file"
+-> ctrl+p 	"Open file (using search)"
+-> ctrl+shift+o "Open folder"
+-> ctrl+s 	"Save"
+-> ctrl+shift+s "Save as"
+-> ctrl+tab	"Move to next tab"
+-> ctrl+shift+tab "Move to previous tab"
+-> alt+[1-9] 	"Show Specific Tab"
+-> ctrl+w 	"Close tab"
+-> ctrl+k 	"Close other tabs"
+-> ctrl+alt+w 	"Close other tabs"
+
+# Lines
+-> ctrl+g 	"Go to line"
+-> ctrl+l 	"Select line"
+-> ctrl+shift+d "Duplicate line"
+-> ctrl+shift+k "Delete line"
+-> ctrl+↑ 	"Move line up"
+-> ctrl+↓	"Move line down"
+-> ctrl+/ 	"Toggle line comment"
+
+# Words and Characters
+-> alt+← 	"Move to of previous word"
+-> alt+→ 	"Move to of next word"
+-> alt+b 	"Move to of begin of word"
+-> alt+f 	"Move to of end of word"
+-> alt+shift+b 	"Select to of begin of word"
+-> alt+shift+f 	"Select to of end of word"
+-> shift+← 	"Select to of begin of character"
+-> shift+→ 	"Select to of end of character"
+
+# Find and Replace
+-> ctrl+f 	"Find in current file"
+-> ctrl+shift+f "Find in project"
+-> F3 		"Find next"
+-> shift+F3 	"Find previous"
+-> ctrl+enter 	"Replace all"
+
+# View
+-> ctrl++ "Increase text size"
+-> ctrl+- "decrease text size"
+-> ctrl+0 "Reset text size"
+
+# Tree View
+-> ctrl+K ctrl+B "Toggle tree view"
+-> A "Add file"
+-> shift+A "Add folder"
+
+# Pane
+-> ctrl+k ↑ "Split up"
+-> ctrl+k ↓ "Split down"
+-> ctrl+k ← "Split left"
+-> ctrl+k → "Split right"
+-> ctrl+k ctrl+↑ "Focus up"
+-> ctrl+k ctrl+↓ "Focus down"
+-> ctrl+k ctrl+← "Focus left"
+-> ctrl+k ctrl+→ "Focus right"
+-> ctrl+k ctrl+w "Close pane"
+
+
+# Sources
+- https://github.com/nwinkler/atom-keyboard-shortcuts
+- http://www.shortcutworld.com/en/win/Atom-(text-editor)_1.0.html
