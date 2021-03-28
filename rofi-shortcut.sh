@@ -43,19 +43,19 @@ terminal(){
 	echo $re
 #	return $re
 }
-second_frame(){
-#cat the shortcuts file 
 
+#cat the shortcuts file
+second_frame(){
 #	a debug message
 #	echo "Debug 2"
-	
 	Program=$(echo $3)
-#	notify-send $Program
 	Path_Pro=$(echo $Keys_Dir/$Program".txt")
-#	echo $Path_Pro
-	cat $Path_Pro
+	string_keys="{ back to menu \n"
+	string_keys+=$(cat $Path_Pro)
+	echo -e "${string_keys}"
 }
 
+#it doesn't work
 run_short_func(){
 	if [[ "$Run_shortcut" == *"yes"* ]]
 	then
@@ -71,13 +71,19 @@ run_short_func(){
 	exit0
 }
 
+# This Fuction is for output all Shortcuts Files(all support programms)
 search_key(){
+	echo -e "{ back to menu"
 	echo $Keys|tr ' ' '\n'|sed "s/^/Shortcuts for /g"
 }
 
+#jump from 2.menu to the 1.menu
+go_back(){
+	main
+}
+
+#select programm window
 main(){
-#select programm window 
-	
 #	a debug message
 #	echo "Debug 1"
 
@@ -112,21 +118,21 @@ main(){
 	fi
 	Output_Main+=" \n"
 
-	echo -e "Debug window_name: " $window
+#	echo -e "Debug window_name: " $window
 	echo -e "${Output_Main}"
 }
 
-if [ "$@" ] 
+if [[ "$@" ]]
 then
-	if [[ "$1" == *"->"* ]]
+	if [[ "$1" == "->"* ]]
 	then
 		run_short_func $1 $2
-	elif [[ "$1" == *"All"* ]]
+	elif [[ "$1" == "All"* ]]
 	then
 		search_key
-	elif [[ "$1" == *"Sorry"* ]]
+	elif [[ "$1" == "{"* ]]
 	then
-		exit 0
+		go_back $@
 	else
 		second_frame $1 $2 $3
 	fi
