@@ -18,7 +18,7 @@ an example with vim
 
 
 ## How to add to rofi:
-<ol><code>git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOMsE/.config/rofi/</code></ol>
+<ol><code>git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOME/.config/rofi/</code></ol>
 </br>
 <ol><code>chmod +x $HOME/.config/rofi/rofi-shortcuts.sh</code></ol>
 
