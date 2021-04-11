@@ -25,11 +25,13 @@ fi
 terminal(){
 	if [[ "$window" == *"tmux"* ]]
 	then
+		re="tmux\n"
 		#Terminal with tmux
+		re+="Shortcuts for "
 		case $if_tmux_acti in
 #			*"$Custom"*)	re="$Custom";;
-			*"vim"*)	re="Vim";;
-			*)		re="";;
+			*"vim"*)	re+="Vim";;
+			*)		re+="";;
 		esac
 	else
 		#Terminal default
