@@ -94,7 +94,8 @@ main(){
 
 	Output_Main+="Shortcuts for "
 	case $window in
-#		*"$Custom"*)	Output_Main+="$Custom";;
+#		*"$Custom"*)	Output_Main+="$Custom";;"
+		*"Ardour"*)     Output_Main+="Ardour";;
 		*"Arduino"*)	Output_Main+="Arduino";;
 		*"Atom"*)	Output_Main+="Atom";;
 		*"Chrome"*)	Output_Main+="Chrome";;
@@ -102,6 +103,8 @@ main(){
 		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
 		*"gedit"*)	Output_Main+="Gedit";;
 		*"GNU Image Manipulation Program"*)	Output_Main+="Gimp";;
+		*"KiCad"*)      Output_Main+="Kicad";;
+		*"Krita"*)      Output_Main+="Krita";;
 		*"REAPER"*) 	Output_Main+="Reaper";;
 		*"Typora"*)	Output_Main+="Typora";;
 		*"Zrythm"*)	Output_Main+="Zrythm";;
@@ -120,7 +123,7 @@ main(){
 	fi
 	Output_Main+=" \n"
 
-#	echo -e "Debug window_name: " $window
+	echo -e "Debug window_name: " $window
 	echo -e "${Output_Main}"
 }
 
