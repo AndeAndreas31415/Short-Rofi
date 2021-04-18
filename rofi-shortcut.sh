@@ -98,6 +98,7 @@ main(){
 		*"Ardour"*)     Output_Main+="Ardour";;
 		*"Arduino"*)	Output_Main+="Arduino";;
 		*"Atom"*)	Output_Main+="Atom";;
+		*"Blender"*)	Output_Main+="Blender";;
 		*"Chrome"*)	Output_Main+="Chrome";;
 		*"Chromium"*)	Output_Main+="Chromium";;
 		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
@@ -123,7 +124,7 @@ main(){
 	fi
 	Output_Main+=" \n"
 
-	echo -e "Debug window_name: " $window
+#	echo -e "Debug window_name: " $window
 	echo -e "${Output_Main}"
 }
 
