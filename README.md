@@ -16,8 +16,15 @@ an example with vim
 <!--2.frame-->
 <a href="https://ibb.co/wh6RMrK"><img src="https://i.ibb.co/xq5DJ8M/key-list.png" alt="key-list" border="0"></a>
 
-
 ## How to add to rofi:
+
+<ol>Needed: <b>xdotool , rofi , xsel</b><br>
+<ol>Debian / Ubuntu / ... <code>sudo apt-get install xdotool rofi xsel</code><br>
+Arch / Manjaro / ... <code>sudo pacman -S xdotool rofi xsel --needed</code>
+</ol>
+</ol>
+
+
 <ol><code>git clone https://github.com/AndeAndreas31415/Short-Rofi.git $HOME/.config/rofi/</code></ol>
 </br>
 <ol><code>chmod +x $HOME/.config/rofi/rofi-shortcuts.sh</code></ol>
