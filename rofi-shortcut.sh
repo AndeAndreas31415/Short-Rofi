@@ -4,7 +4,7 @@
 
 # automatic execution of the shortcut (yes/no)
 # this fuction is not available
-#readonly Run_shortcut="yes"
+readonly Run_shortcut="yes"
 
 readonly window=$(xdotool getwindowfocus getwindowname)
 readonly wn=$(xdotool getactivewindow)
@@ -61,14 +61,8 @@ second_frame(){
 run_short_func(){
 	if [[ "$Run_shortcut" == *"yes"* ]]
 	then
-		echo -n "Nothing"
-#		xdotool key 0xff1b
-#		a debug message
-#		echo "Debug copy"
-#		xdotool key --clearmodifiers --delay 1000 --window $wn $2
-#		notify-send $wn
-#		notify-send $(pwd)
-#		echo -e "sleep 5 \nxdotool windowactivate "$wn" \nxdotool key "$2"\nnotify-send \"Nice it works\"">run-key.sh
+		#special thank go to "https://github.com/raphaelfournier/rofi-modi-snippets"
+		coproc(xdotool key $2)
 	fi
 	exit0
 }
