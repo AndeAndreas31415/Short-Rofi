@@ -33,30 +33,19 @@ Arch / Manjaro / ... <code>sudo pacman -S xdotool rofi xsel --needed</code>
 
 <ol><code>rofi -modi shortcut:$HOME/.config/rofi/rofi-shortcut.sh -show shortcut</code></ol>
 
-### Add the script to rofi modi 
-
-Edit the *config from rofi*:
-
-<ol>
-<code>nano $HOME/.config/rofi/config.rasi</code>
-</br>
-or
-</br>
-<code>vim $HOME/.config/rofi/config.rasi</code>
-</br>
-or 
-</br>
-<code>$"Your favorit text editor" $HOME/.config/rofi/config.rasi</code>
-</ol>
-
+<details>
+<summary style="zoom:150%;font-weight:bold;">Add the script to rofi modi</summary></br>
+Edit the *config from rofi*:</br>
+<code>vim $HOME/.config/rofi/config.rasi</code></br>
+or</br>
+<code>quot;Your favorit text editor" $HOME/.config/rofi/config.rasi</code></ol></br></br>
 add in the line "modi":</br>
 <ol><code><b>shortcuts:$HOME/.config/rofi/rofi-shortcuts.sh</b></code></ol>
-
 Example:</br>
 <ol><code><i>modi: "drun,window,shortcuts:$HOME/.config/rofi/rofi-shortcut.sh,";</i></code></ol>
-
 And than can show you with command:</br>
 <ol><code>rofi -show shortcuts</code></ol>
+</details></br>
 
 On this [Site](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet) can you look whiche programms are supported:
 [Supported Programms](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet)
@@ -73,5 +62,5 @@ P.s.: <u><i><b>Please read the [wiki](https://github.com/AndeAndreas31415/Short-
 <!-- Variables for this Readme file-->
 
 [License]: https://img.shields.io/badge/License-MIT-blue
-[Version]: https://img.shields.io/badge/Version-Beta-red
+[Version]: https://img.shields.io/badge/Version-v1.0-red
 [L-link]: ./LICENSE
