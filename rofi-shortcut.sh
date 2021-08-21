@@ -103,6 +103,7 @@ main(){
 		*"REAPER"*) 	Output_Main+="Reaper";;
 		*"Typora"*)	Output_Main+="Typora";;
 		*"Zrythm"*)	Output_Main+="Zrythm";;
+		*"mpv"*)	Output_Main+="mpv";;
 		*"Terminal"*)	Output_Main+=$(terminal);;
 		*)		Output_Main=$(echo -e $Output_Main|head -n -1);;
 	esac
