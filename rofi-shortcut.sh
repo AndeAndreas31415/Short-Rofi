@@ -98,6 +98,7 @@ main(){
 		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
 		*"gedit"*)	Output_Main+="Gedit";;
 		*"GNU Image Manipulation Program"*)	Output_Main+="Gimp";;
+		*"GIMP"*)	Output_Main+="Gimp";;
 		*"KiCad"*)      Output_Main+="Kicad";;
 		*"Krita"*)      Output_Main+="Krita";;
 		*"REAPER"*) 	Output_Main+="Reaper";;
