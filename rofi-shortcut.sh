@@ -4,7 +4,8 @@
 
 # automatic execution of the shortcut (yes/no)
 # this fuction is not available
-readonly Run_shortcut="yes"
+readonly Run_shortcut="no"
+readonly Debug_active="no"
 
 readonly window=$(xdotool getwindowfocus getwindowname)
 readonly wn=$(xdotool getactivewindow)
@@ -31,7 +32,7 @@ terminal(){
 		case $if_tmux_acti in
 #			*"$Custom"*)	re="$Custom";;
 			*"vim"*)	re+="Vim";;
-			*)		re+="";;
+			*)		re+="nothing";;
 		esac
 	else
 		#Terminal default
@@ -39,8 +40,12 @@ terminal(){
 		case ${ter_win[1]} in
 #			*"$Custom"*)	re="$Custom";;
 			*"vim"*)	re="Vim";;
-			*)		re="";;
+			*)		re="nothing";;
 		esac
+	fi
+	if [[ "$re" == *"nothing" ]]
+	then
+		re=$(echo -e $re|head -n -1)
 	fi
 	echo $re
 #	return $re
@@ -52,6 +57,11 @@ second_frame(){
 #	echo "Debug 2"
 	Program=$(echo $3)
 	Path_Pro=$(echo $Keys_Dir/$Program".txt")
+	if [[ "$Debug_active" == "yes" ]]
+	then
+		echo -e "Debug file name: " $Path_Pro
+	fi
+
 	string_keys="{ back to menu \n"
 	string_keys+=$(cat $Path_Pro)
 	echo -e "${string_keys}"
@@ -119,10 +129,19 @@ main(){
 		Output_Main=$(echo -e $Output_Main|head -n -1)
 	fi
 	Output_Main+=" \n"
-
-#	echo -e "Debug window_name: " $window
+	
+	if [[ "$Debug_active" == "yes" ]]
+	then
+		echo -e "Debug window_name: " $window
+	fi
 	echo -e "${Output_Main}"
 }
+
+if [[ "$Debug_active" == "yes" ]]
+then
+	echo -e "Debug args: " $@
+fi
+
 
 if [[ "$@" ]]
 then
