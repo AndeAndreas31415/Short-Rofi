@@ -218,4 +218,4 @@
 -> Del "Delete item"
 
 #Source
-- "https://defkey.com/kicad-shortcuts"
+- https://defkey.com/kicad-shortcuts
