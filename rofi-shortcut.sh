@@ -5,7 +5,7 @@
 # automatic execution of the shortcut (yes/no)
 # this fuction is not available
 readonly Run_shortcut="no"
-readonly Debug_active="no"
+readonly Debug_active="yes"
 
 readonly window=$(xdotool getwindowfocus getwindowname)
 readonly wn=$(xdotool getactivewindow)
@@ -105,16 +105,17 @@ main(){
 		*"Blender"*)	Output_Main+="Blender";;
 		*"Chrome"*)	Output_Main+="Chrome";;
 		*"Chromium"*)	Output_Main+="Chromium";;
+		*"Code - OSS"*)	Output_Main+="VSCode";;
 		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
 		*"gedit"*)	Output_Main+="Gedit";;
 		*"GNU Image Manipulation Program"*)	Output_Main+="Gimp";;
 		*"GIMP"*)	Output_Main+="Gimp";;
 		*"KiCad"*)      Output_Main+="Kicad";;
 		*"Krita"*)      Output_Main+="Krita";;
+		*"mpv"*)	Output_Main+="mpv";;
 		*"REAPER"*) 	Output_Main+="Reaper";;
 		*"Typora"*)	Output_Main+="Typora";;
 		*"Zrythm"*)	Output_Main+="Zrythm";;
-		*"mpv"*)	Output_Main+="mpv";;
 		*"Terminal"*)	Output_Main+=$(terminal);;
 		*)		Output_Main=$(echo -e $Output_Main|head -n -1);;
 	esac
