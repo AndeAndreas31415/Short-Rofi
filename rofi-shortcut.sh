@@ -5,7 +5,7 @@
 # automatic execution of the shortcut (yes/no)
 # this fuction is not available
 readonly Run_shortcut="no"
-readonly Debug_active="yes"
+readonly Debug_active="no"
 
 readonly window=$(xdotool getwindowfocus getwindowname)
 readonly wn=$(xdotool getactivewindow)
@@ -106,6 +106,7 @@ main(){
 		*"Chrome"*)	Output_Main+="Chrome";;
 		*"Chromium"*)	Output_Main+="Chromium";;
 		*"Code - OSS"*)	Output_Main+="VSCode";;
+		*"darktable"*)	Output_Main+="Darktable";;
 		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
 		*"gedit"*)	Output_Main+="Gedit";;
 		*"GNU Image Manipulation Program"*)	Output_Main+="Gimp";;
