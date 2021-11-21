@@ -107,7 +107,7 @@ main(){
 		*"Chromium"*)	Output_Main+="Chromium";;
 		*"Code - OSS"*)	Output_Main+="VSCode";;
 		*"darktable"*)	Output_Main+="Darktable";;
-		*"Firefox"*)	Output_Main+="Firefox" ;; #&& Next="firefox";;
+		*"Firefox"*)	Output_Main+="Firefox\n" && Next="firefox";;
 		*"gedit"*)	Output_Main+="Gedit";;
 		*"GNU Image Manipulation Program"*)	Output_Main+="Gimp";;
 		*"GIMP"*)	Output_Main+="Gimp";;
@@ -120,11 +120,11 @@ main(){
 		*"Terminal"*)	Output_Main+=$(terminal);;
 		*)		Output_Main=$(echo -e $Output_Main|head -n -1);;
 	esac
-#	if [[ "$Next" == *"firefox"* ]]
-#	then
-#		Output_Main+="  └─ Shortcuts for "
-#		Output_Main+=$(echo $window|grep -o "YouTube")
-#	fi
+	if [[ "$Next" == *"firefox"* ]]
+	then
+		Output_Main+="Shortcuts for "
+		Output_Main+=$(echo $window|grep -o "YouTube")
+	fi
 
 	if [[ "$Output_Main" == *"Shortcuts for " ]]
 	then
