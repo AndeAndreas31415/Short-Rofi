@@ -46,17 +46,14 @@ And than can show you with command:</br>
 <ol>You must edit the File to activate this Features</ol>
 - automatic execution of the shortcut (line 7 no->yes)
 - debug messages (line 8 no->yes)
+- automatic key press
 
 
 On this [Site](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet) can you look whiche programms are supported:
 [Supported Programms](https://github.com/AndeAndreas31415/Short-Rofi/wiki/supported-sheet)
 
 ToDo:
-
-- automatic key press (have you a idea then try them out and then send me the solution)
 - add more cheat sheet
-
-Ideas and solutions send it to me  [E-mail:(andreas_coding@gmx.de)](andreas_coding@gmx.de)
 
 P.s.: <u><i><b>Please read the [wiki](https://github.com/AndeAndreas31415/Short-Rofi/wiki)</b></i></u>
 
