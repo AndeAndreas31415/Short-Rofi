@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
 # a script for output the shortcuts in the active window
+#!/usr/bin/env bash
 # need to install: xdotool , rofi , xsel
 
 # automatic execution of the shortcut (yes/no)
@@ -102,6 +102,7 @@ main(){
 		*"Ardour"*)     Output_Main+="Ardour";;
 		*"Arduino"*)	Output_Main+="Arduino";;
 		*"Atom"*)	Output_Main+="Atom";;
+		*"Audacity"*)	Output_Main+="Audacity";;
 		*"Blender"*)	Output_Main+="Blender";;
 		*"Chrome"*)	Output_Main+="Chrome";;
 		*"Chromium"*)	Output_Main+="Chromium";;
