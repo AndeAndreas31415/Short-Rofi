@@ -1,1 +1,219 @@
-https://manual.audacityteam.org/man/keyboard_shortcut_reference.html
+# File Menu
+-> Ctrl+N "New"
+-> Ctrl+O "Open..."
+-> Ctrl+W "Close"
+-> Shift+A "Compact Project"
+-> Ctrl+Q "Exit"
+
+# File: Save Project
+-> Ctrl+S "Save Project"
+
+# File: Export
+-> Ctrl+Shift+E "Export Audio..."
+-> Ctrl+Shift+L "Export Multiple..."
+
+# File: Import
+-> Ctrl+Shift+I "Audio..."
+
+# Edit Menu
+-> Ctrl+Z "Undo"
+-> Ctrl+Y "Redo"
+-> Ctrl+X "Cut"
+-> Ctrl+K "Delete"
+-> Ctrl+C "Copy"
+-> Ctrl+V "Paste"
+-> Ctrl+D "Duplicate"
+-> Ctrl+P "Preferences..."
+
+# Edit: Remove Special
+-> Ctrl+Alt+X "Split Cut"
+-> Ctrl+Alt+K "Split Delete"
+-> Ctrl+L "Silence Audio"
+-> Ctrl+T "Trim Audio"
+
+# Edit: Clip Boundaries
+-> Ctrl+I "Split"
+-> Ctrl+Alt+I "Split New"
+-> Ctrl+J "Join"
+-> Ctrl+Alt+J "Detach at Silences"
+
+# Edit: Labels
+-> Ctrl+B "Add Label at Selection"
+-> Ctrl+M "Add Label at Playback Position"
+-> Ctrl+Alt+V "Paste Text to New Label"
+
+# Edit: Labeled Audio
+-> Alt+X "Cut"
+-> Alt+K "Delete"
+-> Alt+Shift+X "Split Cut"
+-> Alt+Shift+K "Split Delete"
+-> Alt+L "Silence Audio"
+-> Alt+Shift+C "Copy"
+-> Alt+I "Split"
+-> Alt+J "Join"
+-> Alt+Shift+J "Detach at Silences"
+
+# Select Menu
+-> Ctrl+A "All"
+-> Ctrl+Shift+A "None"
+-> Z "At Zero Crossings"
+
+# Select: Tracks
+-> Ctrl+Shift+K "In All Tracks"
+-> Ctrl+Shift+Y "In All Sync-Locked Tracks"
+
+# Select: Region
+-> [ "Left at Playback Position"
+-> ] "Right at Playback Position"
+-> Shift+J "Track Start to Cursor"
+-> Shift+K "Cursor to Track End"
+
+# Select: Spectral
+-> Q "Toggle Spectral Selection"
+
+# Select: Clip Boundaries
+-> Alt+, "Previous Clip"
+-> Alt+. "Next Clip"
+
+# View: Zoom
+-> Ctrl+1 "Zoom In"
+-> Ctrl+2 "Zoom Normal"
+-> Ctrl+3 "Zoom Out"
+-> Ctrl+E "Zoom to Selection"
+-> Shift+Z "Zoom Toggle"
+
+# View: Track Size
+-> Ctrl+F "Fit to Width"
+-> Ctrl+Shift+F "Fit to Height"
+-> Ctrl+Shift+C "Collapse All Tracks"
+-> Ctrl+Shift+X "Expand Collapsed Tracks"
+
+# View: Skip to
+-> Ctrl+[ "Selection Start"
+-> Ctrl+] "Selection End"
+
+# Transport: Playing
+-> Space "Play/Stop"
+-> X "Play/Stop and Set Cursor"
+-> Shift+Space "Play Once/Stop"
+-> P "Pause"
+
+# Transport: Recording
+-> R "Record"
+-> Shift+R "Record New Track"
+-> Shift+T "Timer Record..."
+-> Shift+D "Punch and Roll Record"
+-> P "Pause"
+
+# Transport: Cursor to
+-> J "Track Start"
+-> K "Track End"
+-> Home "Project Start"
+-> End "Project End"
+
+# Transport: Looping
+-> L "Loop on/off"
+
+# Tracks: Add New
+-> Ctrl+Shift+N "Mono Track"
+
+# Tracks: Mix
+-> Ctrl+Shift+M "Mix and Render to New Track"
+
+# Tracks: Mute/Unmute
+-> Ctrl+U "Mute All Tracks"
+-> Ctrl+Shift+U "Unmute All Tracks"
+-> Ctrl+Alt+U "Mute Tracks"
+-> Ctrl+Alt+Shift+U "Unmute Tracks"
+
+# Analyze Menu
+-> Ctrl+Shift+T "Contrast..."
+
+# Extra Menu
+-> F11 "Full Screen (on/off)"
+
+# Extra: Transport
+-> B "Play to Selection"
+-> Shift+F5 "Play Before Selection Start"
+-> Shift+F6 "Play After Selection Start"
+-> Shift+F7 "Play Before Selection End"
+-> Shift+F8 "Play After Selection End"
+-> Ctrl+Shift+F5 "Play Before and After Selection Start"
+-> Ctrl+Shift+F7 "Play Before and After Selection End"
+-> C  "Play Cut Preview"
+
+# Extra: Tools
+-> F1 "Selection Tool"
+-> F2 "Envelope Tool"
+-> F3 "Draw Tool"
+-> F4 "Zoom Tool"
+-> F6 "Multi Tool"
+-> A "Previous Tool"
+-> D "Next Tool"
+
+# Extra: Edit
+-> Backspace "Delete Key"
+-> Delete "Delete Key2"
+
+# Extra: Play-at-Speed
+-> Alt+Left "Move to Previous Label"
+-> Alt+Right "Move to Next Label"
+
+# Extra: Seek
+-> Left "Short Seek Left During Playback"
+-> Right "Short Seek Right During Playback"
+-> Shift+Left "Long Seek Left During Playback"
+-> Shift+Right "Long Seek Right During Playback"
+
+# Extra: Device
+-> Shift+I "Change Recording Device..."
+-> Shift+O "Change Playback Device..."
+-> Shift+H "Change Audio Host..."
+-> Shift+N "Change Recording Channels..."
+
+# Extra: Selection
+-> Shift+Home "Selection to Start"
+-> Shift+End "Selection to End"
+-> Shift+Left "Selection Extend Left"
+-> Shift+Right "Selection Extend Right"
+-> Ctrl+Shift+Right "Selection Contract Left"
+-> Ctrl+Shift+Left "Selection Contract Right"
+
+# Extra: Focus
+-> Ctrl+Shift+F6 "Move Backward from Toolbars to Tracks"
+-> Ctrl+F6 "Move Forward from Toolbars to Tracks"
+-> Up "Move Focus to Previous Track"
+-> Down "Move Focus to Next Track"
+-> Ctrl+Home "Move Focus to First Track"
+-> Ctrl+End "Move Focus to Last Track"
+-> Shift+Up "Move Focus to Previous and Select"
+-> Shift+Down "Move Focus to Next and Select"
+-> Return "Toggle Focused Track"
+-> NUMPAD_ENTER "Toggle Focused Track"
+
+# Extra: Cursor
+-> Left "Cursor Left"
+-> Right "Cursor Right"
+-> , "Cursor Short Jump Left"
+-> . "Cursor Short Jump Right"
+-> Shift+, "Cursor Long Jump Left"
+-> Shift+. "Cursor Long Jump Right"
+
+# Extra: Track
+-> Shift+P "Change Pan on Focused Track..."
+-> Alt+Shift+Left "Pan Left on Focused Track"
+-> Alt+Shift+Right "Pan Right on Focused Track"
+-> Shift+G "Change Gain on Focused Track..."
+-> Alt+Shift+Up "Increase Gain on Focused Track"
+-> Alt+Shift+Down "Decrease Gain on Focused Track"
+-> Shift+M "Open Menu on Focused Track..."
+-> Shift+U "Mute/Unmute Focused Track"
+-> Shift+S "Solo/Unsolo Focused Track"
+-> Shift+C "Close Focused Track"
+
+# No Menu1"
+-> Alt+Shift+F6 "Previous Window"
+-> Alt+F6 "Next Window"
+
+#Source
+- https://manual.audacityteam.org/man/keyboard_shortcut_reference.html
