@@ -104,6 +104,7 @@ main(){
 		*"Atom"*)	Output_Main+="Atom";;
 		*"Audacity"*)	Output_Main+="Audacity";;
 		*"Blender"*)	Output_Main+="Blender";;
+		*"Burp"*)	Output_Main+="Burp";;
 		*"Chrome"*)	Output_Main+="Chrome";;
 		*"Chromium"*)	Output_Main+="Chromium";;
 		*"Code - OSS"*)	Output_Main+="VSCode";;
