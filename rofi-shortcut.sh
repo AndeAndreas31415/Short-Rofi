@@ -17,13 +17,19 @@ readonly Keys=$(ls $Keys_Dir|cut -d "." -f 1)
 # if you have tmux
 if [ -f /usr/bin/tmux ]
 then
-readonly if_tmux_acti=$(tmux list-panes -F '#{pane_active} #{pane_current_command}'|grep "1"|cut -d " " -f 2 )
+	readonly if_tmux_acti=$(tmux list-panes -F '#{pane_active} #{pane_current_command}'|grep "1"|cut -d " " -f 2 )
 fi
 
 # a debug message
 #echo "Debug 0"
 
 terminal(){
+	if [ -f /usr/bin/kitty ]
+	then
+		kitty="Kitty\nShortcuts for "
+	else
+		kitty=""
+	fi
 	if [[ "$window" == *"tmux"* ]]
 	then
 		re="tmux\n"
@@ -47,7 +53,7 @@ terminal(){
 	then
 		re=$(echo -e $re|head -n -1)
 	fi
-	echo $re
+	echo $kitty$re
 #	return $re
 }
 
@@ -120,6 +126,7 @@ main(){
 		*"Typora"*)	Output_Main+="Typora";;
 		*"Zrythm"*)	Output_Main+="Zrythm";;
 		*"Terminal"*)	Output_Main+=$(terminal);;
+		*"tmux"*)	Output_Main+=$(terminal);;
 		*)		Output_Main=$(echo -e $Output_Main|head -n -1);;
 	esac
 	if [[ "$Next" == *"firefox"* ]]
