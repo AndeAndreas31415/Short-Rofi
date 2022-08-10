@@ -1,1 +1,178 @@
+## Common Shortcuts
+
+# Keyboards
+-> G "refers to the lowercase g."
+-> ctrl+W "indicates that these keys should be pressed simultaneously."
+-> shift+alt+A "indicates that these keys should be pressed simultaneously."
+-> Numpad 0-9 "refer to the keys on the separate numeric keypad."
+-> NumpadPlus "refer to the keys on the separate numeric keypad."
+
+# Properties
+-> ctrl+C "Copy the (single) value of the button."
+-> ctrl+V "Paste the (single) value of the button."
+-> ctrl+alt+C "Copy the entire vector or color of the field."
+-> ctrl+alt+V "Paste the entire vector or color of the field."
+-> RMB "Open the context menu."
+-> backspace "Clear the value (sets to zero or clears a text field)."
+-> Minus "Negate number values."
+-> ctrl+Wheel "Change the value incremental steps."
+-> Return "Activates menus or toggles the value."
+-> Alt "Hold while editing values to apply the change to all selected items."
+
+# Animation
+-> I "Insert a keyframe."
+-> alt+I "Clear the keyframe."
+-> shift+alt+I "Clear all keyframes."
+-> ctrl+D "Assign a driver."
+-> ctrl+alt+D "Clear the driver."
+-> K "Add a Keying Set."
+-> alt+K "Clear the Keying Set."
+
+# Python Scripting
+-> ctrl+C "Over any Operator Buttons copies their Python command into the clipboard."
+-> shift+ctrl+C "Over property buttons copies their data path for this property."
+-> shift+ctrl+alt+C "Over property buttons copies their full data path for the datablock and property."
+
+# Dragging
+-> Ctrl "While dragging, snap to discrete steps."
+-> shift "Gives precision control over the value."
+-> shift+Ctrl "Precise snap will move the object with high precision along with the snapping constraint."
+
+# Text Editing
+-> Home "Go to the start of the line."
+-> End "Go to the end of the line."
+-> Left "Move the cursor a single character."
+-> Right "Move the cursor a single character."
+-> ctrl+Left "Move the cursor an entire word."
+-> ctrl+Right "Move the cursor an entire word."
+-> backspace "Delete characters."
+-> Delete "Delete characters."
+-> ctrl+backspace "Delete words."
+-> ctrl+Delete "Delete words."
+-> shift "Select while holding the key and moving the cursor."
+-> ctrl+A "Select all text."
+-> ctrl+C "Copy the selected text."
+-> ctrl+X "Cut the selected text."
+-> ctrl+V "Paste text at the cursor position."
+
+# Confirm & Cancel
+-> esc "Cancel."
+-> RMB "Cancel."
+-> Return "Confirm."
+->  LMB "Confirm."
+
+## Default Keymap
+
+# Global Keys
+-> ctrl+O "Open file."
+-> ctrl+S "Save file."
+-> ctrl+N "New file."
+-> ctrl+Z "Undo."
+-> shift+ctrl+Z "Redo."
+-> ctrl+Q "Quit."
+-> F1 "Help (context sensitive)."
+-> F2 "Rename active item."
+-> F3 "Menu Search."
+-> F4 "File context menu."
+-> F5-F8 "Reserved for user actions."
+-> F9 "Adjust last operation."
+-> F10 "Reserved for user actions."
+-> F11 "Show render window."
+-> F12 "Render the current frame."
+-> Q "Quick access (favorites)."
+-> ctrl+Spacebar "Toggle Maximize Area."
+-> ctrl+alt+Spacebar "Toggle Fullscreen Area"
+-> ctrl+PageUp "Next Workspace"
+-> ctrl+PageDown "previous Workspace"
+-> shift+ctrl+Spacebar "Playback animation reverse"
+
+
+# Common Editing Keys
+-> X "Deletes the selected item, requires a confirmation dialog."
+-> Delete "Deletes the selected item, does not require a confirmation dialog."
+
+
+# Common Editor Keys
+-> A "Select all."
+-> alt+A "Select none."
+-> ctrl+I "Invert selection."
+-> H "Hide selection."
+-> alt+H "Reveal hidden items."
+-> T "Toggle Toolbar."
+-> N "Toggle Sidebar."
+
+
+# 3D Viewport Keys
+-> Tab "Edit-mode toggle."
+-> ctrl+Tab "Mode switching pie menu (toggles Pose Mode for armatures)."
+-> 1-3 "Edit mesh vertex/edge/face toggle (shift extends, Ctrl expands & contracts)."
+-> AccentGrave "3D Viewport navigation pie menu."
+-> ctrl+AccentGrave "Toggle gizmos."
+-> shift+AccentGrave "Walk/Fly Navigation."
+
+## Industry Compatible Keymap
+
+# General
+-> 1-9 "Mode/Element switching"
+-> RMB "Context menu"
+-> Tab "Menu Search."
+-> shift+Tab "Quick access (favorites)"
+-> Return "Rename"
+-> ctrl+Return "Render"
+-> ctrl+[ "Toggle Toolbar"
+-> ctrl+] "Toggle Sidebar"
+
+# Common Editing Keys
+-> backspace "Deletes the selected item, requires a confirmation dialog."
+-> Delete "Deletes the selected item, does not require a confirmation dialog."
+-> ctrl+D "Duplicate"
+-> P "Set Parent"
+-> B "Proportional Editing / Soft Selection"
+
+# Viewport
+-> alt+LMB "Orbit View"
+-> alt+MMB "Pan View"
+-> alt+RMB "Zoom View"
+-> F1-F4 "Front/Side/Top/Camera Viewpoints"
+-> F "Frame Selected"
+-> A "Frame All"
+
+# Selection
+-> LMB "Select"
+-> ctrl+A "Select All"
+-> shift+ctrl+A "Deselect All"
+-> ctrl+I "Select Inverse"
+-> Up "Select More"
+-> Down "Select Less"
+-> Double LMB "Select Loop"
+-> Double alt+LMB "Select Ring"
+-> ] "Select Linked"
+
+# Tools
+-> W "Transform Tools"
+-> E "Transform Tools"
+-> R "Transform Tools"
+-> Q "Box Select"
+-> D "Annotate"
+-> C "Cursor Tool"
+
+# Edit Mode Tools
+-> ctrl+E "Extrude"
+-> ctrl+B "Bevel"
+-> I "Inset"
+-> K "Knife"
+-> alt+C "Loop Cut"
+
+# Animation
+-> Spacebar "Play/Pause"
+-> S "Set Location + Rotation + Scale keyframe"
+-> shift+S "Insert Keyframe menu"
+-> shift+W "Set Location Key"
+-> shift+E "Set Rotation Key"
+-> shift+R "Set Scale Key"
+
+# Source
 https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html
+
+# Importend
+-> shift+a "add new Object"
