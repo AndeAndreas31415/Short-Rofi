@@ -119,6 +119,7 @@ main(){
 		*"gedit"*)	Output_Main+="Gedit";;
 		*"GNU Image Manipulation Program"*)	Output_Main+="Gimp";;
 		*"GIMP"*)	Output_Main+="Gimp";;
+		*"Kdenlive"*)	Output_Main+="Kdenlive";;
 		*"KiCad"*)      Output_Main+="Kicad";;
 		*"Krita"*)      Output_Main+="Krita";;
 		*"mpv"*)	Output_Main+="mpv";;
