@@ -2,10 +2,9 @@
 #!/usr/bin/env bash
 # need to install: xdotool , rofi , xsel
 
-# automatic execution of the shortcut (yes/no)
-# this fuction is not available
-readonly Run_shortcut="no"
-readonly Debug_active="no"
+# only [ false or true ]
+Run_shortcut=false
+Debug_active=false
 
 readonly window=$(xdotool getwindowfocus getwindowname)
 readonly wn=$(xdotool getactivewindow)
@@ -63,7 +62,7 @@ second_frame(){
 #	echo "Debug 2"
 	Program=$(echo $3)
 	Path_Pro=$(echo $Keys_Dir/$Program".txt")
-	if [[ "$Debug_active" == "yes" ]]
+	if $Debug_active
 	then
 		echo -e "Debug file name: " $Path_Pro
 	fi
@@ -75,7 +74,7 @@ second_frame(){
 
 #it doesn't work
 run_short_func(){
-	if [[ "$Run_shortcut" == *"yes"* ]]
+	if $Run_shortcut
 	then
 		#special thank go to "https://github.com/raphaelfournier/rofi-modi-snippets"
 		coproc(xdotool key $2)
@@ -142,14 +141,14 @@ main(){
 	fi
 	Output_Main+=" \n"
 	
-	if [[ "$Debug_active" == "yes" ]]
+	if $Debug_active
 	then
 		echo -e "Debug window_name: " $window
 	fi
 	echo -e "${Output_Main}"
 }
 
-if [[ "$Debug_active" == "yes" ]]
+if $Debug_active
 then
 	echo -e "Debug args: " $@
 fi
